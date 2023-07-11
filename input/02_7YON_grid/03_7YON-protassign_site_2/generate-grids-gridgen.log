@@ -1,0 +1,35 @@
+Glide version 75013 (mmshare version 38013)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ali-0-64a93168
+Name           : generate-grids-gridgen
+Program        : Glide
+MMshareExec    : /home/ali/Programs/schro2017/opt/mmshare-v3.8/bin/Linux-x86_64
+Host           : Ali
+Dir            : /home/ali/Projects/NeuropeptideY/input/02_7YON_grid/03_7YON-protassign_site_2
+HostEntry      : localhost
+JobHost        : Ali
+JobDir         : /home/ali/Programs/schro2017/scratch/ali/generate-grids-gridgen
+JobMMshareExec : /home/ali/Programs/schro2017/opt/mmshare-v3.8/bin/Linux-x86_64
+Commandline    : /home/ali/Programs/schro2017/opt/glide generate-grids-gridgen.in
+StartTime      : 2023-07-08-17:50:32
+--------------------------------------------------------------------------------
+
+Calling OPLS3 atomtyping ...
+Finished parameter assignment
+ VdW radii of protein atoms scaled by    1.00000000000000     
+ Charge cutoff for polarity  0.250000000000000     
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 , 
+          30 ,           30 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 , 
+          80 ).
+Creating output grid archive 'generate-grids-gridgen.zip'
+
+Exiting Glide
+Date: Saturday, July 08 2023, at 17:51:01 AWST
+CPU time (s): 27.7 user, 0.8 system, 28.5 real
+Total elapsed time = 28 seconds

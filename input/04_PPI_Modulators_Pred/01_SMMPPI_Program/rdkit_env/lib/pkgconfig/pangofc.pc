@@ -1,0 +1,9 @@
+prefix=/home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Pango FC
+Description: Fontconfig support for Pango
+Version: 1.50.7
+Requires: pangoft2
+Cflags: -I${includedir}/pango-1.0

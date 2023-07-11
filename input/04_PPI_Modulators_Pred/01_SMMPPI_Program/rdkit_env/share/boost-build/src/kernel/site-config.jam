@@ -1,0 +1,8 @@
+  using gcc : 7.3.0 : x86_64-conda-linux-gnu-c++
+              : # options
+                  <archiver>x86_64-conda-linux-gnu-ar
+                  <cflags>"-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env/include -fdebug-prefix-map=/opt/conda/conda-bld/bst_1655879425328/work=/usr/local/src/conda/bst-1.73.0 -fdebug-prefix-map=/home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env=/usr/local/src/conda-prefix"
+                  <cxxflags>"-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env/include -fdebug-prefix-map=/opt/conda/conda-bld/bst_1655879425328/work=/usr/local/src/conda/bst-1.73.0 -fdebug-prefix-map=/home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env=/usr/local/src/conda-prefix"
+                  <linkflags>"-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env/lib -Wl,-rpath-link,/home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env/lib -L/home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env/lib"
+                  <ranlib>x86_64-conda-linux-gnu-ranlib
+              ;

@@ -1,0 +1,16 @@
+*** Filesystem information:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           785M  2.1M  783M   1% /run
+/dev/sda2       916G  136G  734G  16% /
+tmpfs           3.9G  5.0M  3.9G   1% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/sda1       511M  6.1M  505M   2% /boot/efi
+tmpfs           785M  2.4M  783M   1% /run/user/1000
+
+*** Memory information:
+               total        used        free      shared  buff/cache   available
+Mem:            7849        2378         353         626        5117        4547
+Swap:           2047          59        1988
+
+*** Killed processes information [dmesg | grep -i 'kill.*process'; tail -100 /var/log/messages | grep -i kill; tail -100 /var/log/syslog | grep -i kill]:
+

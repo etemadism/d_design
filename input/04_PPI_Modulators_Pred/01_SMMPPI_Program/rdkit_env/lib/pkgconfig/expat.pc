@@ -1,0 +1,12 @@
+prefix=/home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: expat
+Version: 2.4.9
+Description: expat XML parser
+URL: https://libexpat.github.io/
+Libs: -L${libdir} -lexpat
+Libs.private: -lm
+Cflags: -I${includedir}

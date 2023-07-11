@@ -1,0 +1,4 @@
+cat score.txt | awk '{print $2 , $4}' > input_featurize.smi
+sed 's/Negative/0/g' input_featurize.smi > input_featurize1.smi 
+sed 's/Positive/1/g' input_featurize1.smi > input_featurize2.smi 
+mv input_featurize2.smi 01_SMMPPI_for_featurize.smi 

@@ -1,0 +1,18 @@
+To install weka, run the follwing commands one after other
+wget --no-check-certificate https://sourceforge.net/projects/weka/files/weka-3-8/3.8.1/weka-3-8-1.zip 
+unzip weka-3-8-1.zip 
+
+
+Rdkit and R can be installed using anaconda by pasting following commands
+in the terminal (in the SMMPPI_Program directory)
+
+conda create -c rdkit --prefix rdkit_env rdkit R 
+conda activate ./rdkit_env 
+
+Run the following commands 
+conda activate ./rdkit_env
+cd ./scripts
+
+./search_Gen_PPIM sample.smi prefix
+
+

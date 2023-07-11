@@ -1,0 +1,11 @@
+prefix=/home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: lcms2
+Description: LCMS Color Management Library
+Version: 2.12
+Libs: -L${libdir} -llcms2 
+Libs.private: -lm -lpthread
+Cflags: -I${includedir}

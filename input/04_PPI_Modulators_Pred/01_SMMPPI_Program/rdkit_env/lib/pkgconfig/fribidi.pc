@@ -1,0 +1,9 @@
+prefix=/home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env
+libdir=${prefix}/lib64
+includedir=${prefix}/include
+
+Name: GNU FriBidi
+Description: Unicode Bidirectional Algorithm Library
+Version: 1.0.10
+Libs: -L${libdir} -lfribidi
+Cflags: -I${includedir}/fribidi

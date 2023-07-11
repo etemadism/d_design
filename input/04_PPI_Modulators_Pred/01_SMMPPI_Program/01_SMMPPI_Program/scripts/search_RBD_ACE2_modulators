@@ -1,0 +1,37 @@
+if [ -d $2_RBD_ACE2_All_PPIM ]; then rm -rf $2_RBD_ACE2_All_PPIM 
+mkdir $2_RBD_ACE2_All_PPIM  
+else  
+mkdir $2_RBD_ACE2_All_PPIM  
+fi  
+
+
+#script for testing the given data for a given cutoff, and visualising those compounds 
+#$1 = test smiles file 
+#$2_RBD_ACE2_All_PPIM = dir name 
+
+
+cd $2_RBD_ACE2_All_PPIM
+cut -d"	" -f1,2 ../$1 > $1_w_ready
+python ../../files/gen_morgan_fp.py $1_w_ready $1_FP
+cut -d"	" -f3 $1_FP > posi_test
+vi posi_test -c ':1d' -c ':%s/$/,?/' -c ':wq'
+cat ../../files/arff_lines_1024_bits posi_test  > $1.arff
+java -cp ../../weka-3-8-1/weka.jar weka.classifiers.trees.RandomForest -T $1.arff -l ../../files/RBD_ACE2_RF.model  -p first > $1_score
+../../files/format_rfout.pl $1_score
+sort -t"," -n -r -k1 $1_score.out > $1_score_sorted
+
+Rscript ../../files/get_test_out_comp.R $1_score.out $1_FP 0.612 hits 
+
+FILE=hits
+if test -f "$FILE"; then
+    #draw images of selected compounds
+    mkdir selected_img
+    cd selected_img
+    python ../../../files/draw_smi.py ../hits
+    rm ../hits
+    cd ../
+fi
+
+rm $1_w_ready $1_FP posi_test $1.arff $1_score $1_score.out $1_score_sorted
+
+

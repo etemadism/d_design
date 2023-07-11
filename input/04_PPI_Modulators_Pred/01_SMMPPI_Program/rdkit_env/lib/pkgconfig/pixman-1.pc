@@ -1,0 +1,11 @@
+prefix=/home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Pixman
+Description: The pixman library (version 1)
+Version: 0.40.0
+Cflags: -I${includedir}/pixman-1
+Libs: -L${libdir} -lpixman-1
+

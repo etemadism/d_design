@@ -1,0 +1,231 @@
+{
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "/home/ali/anaconda3/pkgs/r-codetools-0.2_16-r36h6115d3f_0",
+  "features": "",
+  "files": [
+    "lib/R/library/codetools/DESCRIPTION",
+    "lib/R/library/codetools/INDEX",
+    "lib/R/library/codetools/MD5",
+    "lib/R/library/codetools/Meta/Rd.rds",
+    "lib/R/library/codetools/Meta/features.rds",
+    "lib/R/library/codetools/Meta/hsearch.rds",
+    "lib/R/library/codetools/Meta/links.rds",
+    "lib/R/library/codetools/Meta/nsInfo.rds",
+    "lib/R/library/codetools/Meta/package.rds",
+    "lib/R/library/codetools/NAMESPACE",
+    "lib/R/library/codetools/R/codetools",
+    "lib/R/library/codetools/R/codetools.rdb",
+    "lib/R/library/codetools/R/codetools.rdx",
+    "lib/R/library/codetools/help/AnIndex",
+    "lib/R/library/codetools/help/aliases.rds",
+    "lib/R/library/codetools/help/codetools.rdb",
+    "lib/R/library/codetools/help/codetools.rdx",
+    "lib/R/library/codetools/help/paths.rds",
+    "lib/R/library/codetools/html/00Index.html",
+    "lib/R/library/codetools/html/R.css",
+    "lib/R/library/codetools/html/checkUsage.html",
+    "lib/R/library/codetools/html/codetools.html",
+    "lib/R/library/codetools/html/findGlobals.html",
+    "lib/R/library/codetools/html/showTree.html"
+  ],
+  "fn": "r-codetools-0.2_16-r36h6115d3f_0.tar.bz2",
+  "license": "GPL",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/ali/anaconda3/pkgs/r-codetools-0.2_16-r36h6115d3f_0",
+    "type": 1
+  },
+  "md5": "5310d4fb07c22587914dd5078739c036",
+  "name": "r-codetools",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/ali/anaconda3/pkgs/r-codetools-0.2_16-r36h6115d3f_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/codetools/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "451414672e5884fbd8bd73ef68fa636b1aac4b00aaf41e3057e0c553a100bcce",
+        "sha256_in_prefix": "451414672e5884fbd8bd73ef68fa636b1aac4b00aaf41e3057e0c553a100bcce",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "lib/R/library/codetools/INDEX",
+        "path_type": "hardlink",
+        "sha256": "eda109d6072ffe41d9a12e91676366282757438b264ab52d11ac4482e6e49fd6",
+        "sha256_in_prefix": "eda109d6072ffe41d9a12e91676366282757438b264ab52d11ac4482e6e49fd6",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/R/library/codetools/MD5",
+        "path_type": "hardlink",
+        "sha256": "ecd10bea5e44debe259b64965f1746a7641b80accf12980b91ab86eb53c7a746",
+        "sha256_in_prefix": "ecd10bea5e44debe259b64965f1746a7641b80accf12980b91ab86eb53c7a746",
+        "size_in_bytes": 1166
+      },
+      {
+        "_path": "lib/R/library/codetools/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "f66f0b3d4e76dab486e1e7f29935058c349253691e5ff5fe7d7cb9b5f8559ee6",
+        "sha256_in_prefix": "f66f0b3d4e76dab486e1e7f29935058c349253691e5ff5fe7d7cb9b5f8559ee6",
+        "size_in_bytes": 538
+      },
+      {
+        "_path": "lib/R/library/codetools/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "ea994aae41523332316746487fbc8be7bae2a0ce42895c9449fa3eafbadc4dae",
+        "sha256_in_prefix": "ea994aae41523332316746487fbc8be7bae2a0ce42895c9449fa3eafbadc4dae",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/codetools/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "2341af8feb846cfce6ec88a644551e69aa5774106761ecccae73c951bc31e971",
+        "sha256_in_prefix": "2341af8feb846cfce6ec88a644551e69aa5774106761ecccae73c951bc31e971",
+        "size_in_bytes": 580
+      },
+      {
+        "_path": "lib/R/library/codetools/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "33ffb0b7df24ca01a525ca9a9b15611d32097ea31707f9a83155b8d16b235965",
+        "sha256_in_prefix": "33ffb0b7df24ca01a525ca9a9b15611d32097ea31707f9a83155b8d16b235965",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "lib/R/library/codetools/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "1d25ee291e0b2deefc38796de785bbf4d7a206b93f5432d38274e3d45b1c2ef9",
+        "sha256_in_prefix": "1d25ee291e0b2deefc38796de785bbf4d7a206b93f5432d38274e3d45b1c2ef9",
+        "size_in_bytes": 350
+      },
+      {
+        "_path": "lib/R/library/codetools/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "8afd20d9696ee5a648e8dc53a0d50e766d8fdaba3d3b40eaa4de5785d4c840d2",
+        "sha256_in_prefix": "8afd20d9696ee5a648e8dc53a0d50e766d8fdaba3d3b40eaa4de5785d4c840d2",
+        "size_in_bytes": 626
+      },
+      {
+        "_path": "lib/R/library/codetools/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "c99d64da37ccb153ae4dc64dc13c9e81786101a15d74e61f047af1ec10e4542e",
+        "sha256_in_prefix": "c99d64da37ccb153ae4dc64dc13c9e81786101a15d74e61f047af1ec10e4542e",
+        "size_in_bytes": 380
+      },
+      {
+        "_path": "lib/R/library/codetools/R/codetools",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/codetools/R/codetools.rdb",
+        "path_type": "hardlink",
+        "sha256": "e7038a6f9a05a4310080aa03d040a1a678671b08af00a6644549be74c0f54cab",
+        "sha256_in_prefix": "e7038a6f9a05a4310080aa03d040a1a678671b08af00a6644549be74c0f54cab",
+        "size_in_bytes": 70206
+      },
+      {
+        "_path": "lib/R/library/codetools/R/codetools.rdx",
+        "path_type": "hardlink",
+        "sha256": "a3bac8f2f6d7c07f81f8de30c426a9bda7fb0cda82862a73a1509bc2f1ce3328",
+        "sha256_in_prefix": "a3bac8f2f6d7c07f81f8de30c426a9bda7fb0cda82862a73a1509bc2f1ce3328",
+        "size_in_bytes": 1553
+      },
+      {
+        "_path": "lib/R/library/codetools/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "9c04150f72d1047a8fca91ad8643309368c3f90caf1ee77ece39dae06ef08e93",
+        "sha256_in_prefix": "9c04150f72d1047a8fca91ad8643309368c3f90caf1ee77ece39dae06ef08e93",
+        "size_in_bytes": 510
+      },
+      {
+        "_path": "lib/R/library/codetools/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "472d7a5992990e9d4e4dafc8616a5d8c6fbb45a8beff1f5077e264e2950a9ba7",
+        "sha256_in_prefix": "472d7a5992990e9d4e4dafc8616a5d8c6fbb45a8beff1f5077e264e2950a9ba7",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/codetools/help/codetools.rdb",
+        "path_type": "hardlink",
+        "sha256": "c13c3587454a1c5f7b7415a6346fc7f2ae1bdafdf78405707a87111c389fa70a",
+        "sha256_in_prefix": "c13c3587454a1c5f7b7415a6346fc7f2ae1bdafdf78405707a87111c389fa70a",
+        "size_in_bytes": 9734
+      },
+      {
+        "_path": "lib/R/library/codetools/help/codetools.rdx",
+        "path_type": "hardlink",
+        "sha256": "ddb6c8542ce16c86ee80e1e501024892261164bcd5bee26c79e8ec908c200697",
+        "sha256_in_prefix": "ddb6c8542ce16c86ee80e1e501024892261164bcd5bee26c79e8ec908c200697",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "lib/R/library/codetools/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "e1507e99ce9f8e8134b416970e0d3f27f6355b3f289a973425bf882e85d96145",
+        "sha256_in_prefix": "e1507e99ce9f8e8134b416970e0d3f27f6355b3f289a973425bf882e85d96145",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "lib/R/library/codetools/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "69c1702779577344e327e5c7258f5144121ce5bee4cd8227b2e586e7a8d58c15",
+        "sha256_in_prefix": "69c1702779577344e327e5c7258f5144121ce5bee4cd8227b2e586e7a8d58c15",
+        "size_in_bytes": 3549
+      },
+      {
+        "_path": "lib/R/library/codetools/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/codetools/html/checkUsage.html",
+        "path_type": "hardlink",
+        "sha256": "64373377a8da2a40d6fb302bdf6ce9cfbbdfec91931cf6c031fb3ec5232db753",
+        "sha256_in_prefix": "64373377a8da2a40d6fb302bdf6ce9cfbbdfec91931cf6c031fb3ec5232db753",
+        "size_in_bytes": 4493
+      },
+      {
+        "_path": "lib/R/library/codetools/html/codetools.html",
+        "path_type": "hardlink",
+        "sha256": "708102b1f26c23f797698a00df85ef0f58151f92a6b29d0eec0d09547f024684",
+        "sha256_in_prefix": "708102b1f26c23f797698a00df85ef0f58151f92a6b29d0eec0d09547f024684",
+        "size_in_bytes": 3809
+      },
+      {
+        "_path": "lib/R/library/codetools/html/findGlobals.html",
+        "path_type": "hardlink",
+        "sha256": "89b1d78f74c4e3d477fb3f37e1ee1a3ec9ed61c13e8369c19a2d74b615c55c43",
+        "sha256_in_prefix": "89b1d78f74c4e3d477fb3f37e1ee1a3ec9ed61c13e8369c19a2d74b615c55c43",
+        "size_in_bytes": 1768
+      },
+      {
+        "_path": "lib/R/library/codetools/html/showTree.html",
+        "path_type": "hardlink",
+        "sha256": "39f3556e9fa6092bcab1e646beb860a22cf3f93cdf0d0da42824bb1bdc59679a",
+        "sha256_in_prefix": "39f3556e9fa6092bcab1e646beb860a22cf3f93cdf0d0da42824bb1bdc59679a",
+        "size_in_bytes": 1374
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "80e3f97150632167503bec04fccc3983fbde7bce060ea3e6b7597e4ea24e3fa8",
+  "size": 109820,
+  "subdir": "noarch",
+  "timestamp": 1557941772813,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/noarch/r-codetools-0.2_16-r36h6115d3f_0.tar.bz2",
+  "version": "0.2_16"
+}

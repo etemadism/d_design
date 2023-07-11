@@ -1,0 +1,39 @@
+{"input_file_train" : "../01_split/data/data_splits/CV_train_0.1.txt",
+ "input_file_test" : "../01_split/data/data_splits/CV_test_0.1.txt",
+"trial" : false,
+"k_fold_value" : "10",
+ "run_folder":"run_files_0.1",
+ "gpu_id" : "0",
+"sequence_length_cutoff" : {
+                            "lensize" : "42",
+                            "atomsize" : "400"
+                            },
+"conv1" :{ "_comments" : "k=window size,s=strides,f=number of filters",
+        "k1" : "11",
+        "s1" : "1",
+        "f1" : "128"
+        },
+"pool1" : {
+        "k2" : "5",
+        "s2" : "1"
+        },
+"conv2" : {
+        "k3" : "11",
+        "s3" : "1",
+        "f3" : "64"
+        },
+"pool2" : {
+        "k4" : "5",
+        "s4" : "1"
+        },
+"fc_layer_parameters" : {
+                        "n_hid" : "96"
+                        },
+"network_parameters" : {
+                        "optimizer" : "adam",
+                        "batchsize" : "32",
+                        "epochs" : "50",
+                        "learning_rate" : "1e-3",
+                        "enable_class_weight" : true
+                        }
+}

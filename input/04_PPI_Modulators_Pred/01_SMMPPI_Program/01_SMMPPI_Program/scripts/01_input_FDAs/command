@@ -1,0 +1,5 @@
+awk 'BEGIN {OFS="\t"} {temp = $1; $1 = $2; $2 = temp}1' 01_world_ligprep.smi > 01_world_ligprep_updated.smi
+
+cp 01_world_ligprep_updated.smi ../
+cd ../
+./search_Gen_PPIM 01_world_ligprep_updated.smi fda

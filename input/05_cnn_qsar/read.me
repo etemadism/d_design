@@ -1,0 +1,16 @@
+based on "Targeting SARS‐CoV‐2 Spike Protein/ACE2 Protein‐Protein Interactions: a Computational Study"
+
+2.2. Building a Focused Virtual Library of PPI‐modulators
+
+The drug‐like library of ∼2 M compounds was obtained from ZINC15 database[ 20 , 21 ] and filtered
+ by an artificial neural network‐based QSAR model. In particular, a convolutional neural network (cNN),
+  using a recently proposed SMILES‐based molecular fingerprint, [22] was employed and trained to 
+  obtain a binary classifier QSAR model, capable to identify potential PPI‐modulators.
+   The fingerprint represents each molecule as a bi‐dimensional matrix in which a string of 
+   symbols is encoded as binary vector of 42 bits. [22] By default, the maximum length of the SMILES
+    string is set to 400, resulting in a feature matrix of dimension (400,42) that represents 
+    the input data for the cNN. The cNN architecture is composed of two subsequent 2D‐convolutional 
+    and average pooling layers followed by a global pooling layer of 1x1xN that is connected to a 
+    fully connected layer with N neurons. [22] The hidden layers converge to the output layer that 
+    consists in one output neuron (Figure 2).
+

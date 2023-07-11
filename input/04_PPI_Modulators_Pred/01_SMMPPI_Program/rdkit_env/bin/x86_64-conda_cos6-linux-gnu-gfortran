@@ -1,0 +1,2 @@
+#!/bin/sh
+/home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env/bin/x86_64-conda_cos6-linux-gnu-gfortran.bin -specs=/home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/specs "$@"

@@ -1,0 +1,22 @@
+/home/ali/Programs/schro2017/opt/utilities/structconvert -imae /home/ali/Projects/NeuropeptideY/input/03_zinc15/01_LigPrep/outfile.mae -osmi 01_world_ligprep.smi
+
+
+
+
+usage: structconvert.py [-h]
+                        [-imae | -icif | -ismi | -imm | -imol2 | -icsv | -ipdb | -isd]
+                        [-omae | -ocif | -osmi | -omm | -omol2 | -ocsv | -opdb | -osd]
+                        [-a] [-stereo {none,annotation,3d}] [-smi SMILESCol]
+                        [-name nameCol]
+                        [-split-nstructures STRUCTURES_PER_OUTPUTFILE | -split-nfiles OUTPUTFILE_COUNT]
+                        [-n selectStr] [-no_color] [-no_dup_conect]
+                        [-multbonds] [-warn_h] [-no_geometry] [-no_renum]
+                        [-no_reorder] [-reorder_by_resnum]
+                        [-reorder_by_sequence] [-no_fixelem] [-first_occ]
+                        [-all_occ] [-remediated] [-hybrid36] [-psp]
+                        [-ignore_obsolete] [-warn_obsolete]
+                        [-use_component_dict] [-no_component_dict]
+                        [-data DATA] [-model MODEL] [-num_models NUM_MODELS]
+                        [-histidine HISTIDINE] [-occ OCC] [-nostereo]
+                        [-noarom] [-nolewis] [-notypes] [-2D] [-u]
+                        inputfile outputfile

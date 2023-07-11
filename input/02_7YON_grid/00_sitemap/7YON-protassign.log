@@ -1,0 +1,91 @@
+[Ali]
+
+################################################################################
+###                                                                          ###
+###                         SiteMap v4.3.013                                 ###
+###        Copyright (c) Schrodinger, LLC - All Rights Reserved              ###
+###                                                                          ###
+################################################################################
+
+Job started: Sat Jul  8 17:14:37 2023
+
+
+SCHRODINGER:  /home/ali/Programs/schro2017/opt
+IMPACT_EXEC:  /home/ali/Programs/schro2017/opt/impact-v7.5/bin/Linux-x86_64
+MMSHARE_EXEC: /home/ali/Programs/schro2017/opt/mmshare-v3.8/bin/Linux-x86_64
+
+Architecture: 
+
+Command line:  -prot ../01_7YON_prep/7YON-protassign.mae -j 7YON-protassign
+
+SiteMap Jobid: Ali-0-64a928fc
+
+Site finding job started:  Sat Jul  8 17:14:37 2023
+(Unsuccessful subjobs will be retried up to 2 time(s).)
+
+Launched subjob Ali-0-64a928fd on localhost (1/1)
+Site finding job "7YON-protassign_find" completed.Sat Jul  8 17:14:42 2023
+
+Working on sites...
+
+These jobs will be run serially.
+
+4 subjobs will be run serially.
+[ Hostpool contains 1 nodes]
+(Unsuccessful subjobs will be retried up to 2 time(s).)
+
+Launched subjob Ali-0-64a92903 on localhost (2/5)
+
+Job Ali-0-64a928fd finished
+
+Launched subjob Ali-0-64a92905 on localhost (3/5)
+
+Job Ali-0-64a92903 finished
+
+Launched subjob Ali-0-64a92906 on localhost (4/5)
+
+Job Ali-0-64a92905 finished
+
+Launched subjob Ali-0-64a92908 on localhost (5/5)
+
+Job Ali-0-64a92906 finished
+
+Site mapping jobs of "7YON-protassign" are completed.
+Sat Jul  8 17:14:49 2023
+
+Started site evaluation jobs...
+
+These jobs will be run serially.
+
+4 subjobs will be run serially.
+[ Hostpool contains 1 nodes]
+(Unsuccessful subjobs will be retried up to 2 time(s).)
+
+Launched subjob Ali-0-64a92909 on localhost (6/9)
+
+Job Ali-0-64a92908 finished
+
+Launched subjob Ali-0-64a9290b on localhost (7/9)
+
+Job Ali-0-64a92909 finished
+
+Launched subjob Ali-0-64a9290d on localhost (8/9)
+
+Job Ali-0-64a9290b finished
+
+Launched subjob Ali-0-64a9290e on localhost (9/9)
+
+Job Ali-0-64a9290d finished
+
+Site evaluation jobs of "7YON-protassign" are completed.
+Sat Jul  8 17:14:55 2023
+ ... cleaning up
+
+Sorting 7YON-protassign_out.maegz by SiteScore...
+
+Job finished: Ali-0-64a928fc
+Sat Jul  8 17:14:55 2023
+
+Elapsed user time:       4.60 seconds
+Elapsed system time:     1.15 seconds
+

@@ -1,0 +1,12 @@
+Grid generation keywords:
+  RECEP_VSCALE 1.0
+  HBOND_CONSTRAINTS []
+  RECEP_CCUT 0.25
+  INNERBOX 10
+  OUTERBOX 30.0
+  WRITEZIP True
+  GRID_CENTER [157.51773466197182, 196.70916900938963, 195.33220084507047]
+  RECEP_FILE /home/ali/Projects/NeuropeptideY/input/01_7YON_prep/7YON-protassign-out.mae
+  JOBNAME generate-grids-gridgen
+Running Glide grid generation...
+Output grids file: generate-grids-gridgen.zip

@@ -1,0 +1,7 @@
+#Sitemap generation 
+
+#home/ali/Programs/schro2017/opt/sitemap -prot ../01_7YON_prep/7YON-protassign-out.mae 
+
+
+##glid 
+#/home/ali/Programs/schro2017/opt/utilities/generate_glide_grids -rec_file /home/ali/Projects/NeuropeptideY/input/01_7YON_prep/7YON-protassign-out.mae -res_asl "(chain.name \"A\" & (res.num 33 | res.num 34 | res.num 35 | res.num 216 | res.num 217 | res.num 218 | res.num 219 | res.num 258 | res.num 259 | res.num 261 | res.num 262 | res.num 263 | res.num 315 | res.num 316 | res.num 317 | res.num 318 | res.num 320 | res.num 342 | res.num 343 | res.num 345 | res.num 346 | res.num 349 | res.num 354))"

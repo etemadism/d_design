@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/home/ali/Projects/NeuropeptideY/input/04_PPI_Modulators_Pred/01_SMMPPI_Program/rdkit_env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libpcreposix
+Description: PCREPosix - Posix compatible interface to libpcre
+Version: 8.45
+Libs: -L${libdir} -lpcreposix
+Cflags: -I${includedir} 
+Requires.private: libpcre

@@ -1,0 +1,999 @@
+{
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "/home/ali/anaconda3/pkgs/r-boot-1.3_20-r36h6115d3f_0",
+  "features": "",
+  "files": [
+    "lib/R/library/boot/CITATION",
+    "lib/R/library/boot/DESCRIPTION",
+    "lib/R/library/boot/INDEX",
+    "lib/R/library/boot/MD5",
+    "lib/R/library/boot/Meta/Rd.rds",
+    "lib/R/library/boot/Meta/data.rds",
+    "lib/R/library/boot/Meta/features.rds",
+    "lib/R/library/boot/Meta/hsearch.rds",
+    "lib/R/library/boot/Meta/links.rds",
+    "lib/R/library/boot/Meta/nsInfo.rds",
+    "lib/R/library/boot/Meta/package.rds",
+    "lib/R/library/boot/NAMESPACE",
+    "lib/R/library/boot/R/boot",
+    "lib/R/library/boot/R/boot.rdb",
+    "lib/R/library/boot/R/boot.rdx",
+    "lib/R/library/boot/bd.q",
+    "lib/R/library/boot/data/Rdata.rdb",
+    "lib/R/library/boot/data/Rdata.rds",
+    "lib/R/library/boot/data/Rdata.rdx",
+    "lib/R/library/boot/help/AnIndex",
+    "lib/R/library/boot/help/aliases.rds",
+    "lib/R/library/boot/help/boot.rdb",
+    "lib/R/library/boot/help/boot.rdx",
+    "lib/R/library/boot/help/paths.rds",
+    "lib/R/library/boot/html/00Index.html",
+    "lib/R/library/boot/html/EEF.profile.html",
+    "lib/R/library/boot/html/Imp.Estimates.html",
+    "lib/R/library/boot/html/R.css",
+    "lib/R/library/boot/html/abc.ci.html",
+    "lib/R/library/boot/html/acme.html",
+    "lib/R/library/boot/html/aids.html",
+    "lib/R/library/boot/html/aircondit.html",
+    "lib/R/library/boot/html/amis.html",
+    "lib/R/library/boot/html/aml.html",
+    "lib/R/library/boot/html/beaver.html",
+    "lib/R/library/boot/html/bigcity.html",
+    "lib/R/library/boot/html/boot-practicals.html",
+    "lib/R/library/boot/html/boot.array.html",
+    "lib/R/library/boot/html/boot.ci.html",
+    "lib/R/library/boot/html/boot.html",
+    "lib/R/library/boot/html/brambles.html",
+    "lib/R/library/boot/html/breslow.html",
+    "lib/R/library/boot/html/calcium.html",
+    "lib/R/library/boot/html/cane.html",
+    "lib/R/library/boot/html/capability.html",
+    "lib/R/library/boot/html/catsM.html",
+    "lib/R/library/boot/html/cav.html",
+    "lib/R/library/boot/html/cd4.html",
+    "lib/R/library/boot/html/cd4.nested.html",
+    "lib/R/library/boot/html/censboot.html",
+    "lib/R/library/boot/html/channing.html",
+    "lib/R/library/boot/html/claridge.html",
+    "lib/R/library/boot/html/cloth.html",
+    "lib/R/library/boot/html/co.transfer.html",
+    "lib/R/library/boot/html/coal.html",
+    "lib/R/library/boot/html/control.html",
+    "lib/R/library/boot/html/corr.html",
+    "lib/R/library/boot/html/cum3.html",
+    "lib/R/library/boot/html/cv.glm.html",
+    "lib/R/library/boot/html/darwin.html",
+    "lib/R/library/boot/html/dogs.html",
+    "lib/R/library/boot/html/downs.bc.html",
+    "lib/R/library/boot/html/ducks.html",
+    "lib/R/library/boot/html/empinf.html",
+    "lib/R/library/boot/html/envelope.html",
+    "lib/R/library/boot/html/exp.tilt.html",
+    "lib/R/library/boot/html/fir.html",
+    "lib/R/library/boot/html/freq.array.html",
+    "lib/R/library/boot/html/frets.html",
+    "lib/R/library/boot/html/glm.diag.html",
+    "lib/R/library/boot/html/glm.diag.plots.html",
+    "lib/R/library/boot/html/gravity.html",
+    "lib/R/library/boot/html/hirose.html",
+    "lib/R/library/boot/html/imp.weights.html",
+    "lib/R/library/boot/html/inv.logit.html",
+    "lib/R/library/boot/html/islay.html",
+    "lib/R/library/boot/html/jack.after.boot.html",
+    "lib/R/library/boot/html/k3.linear.html",
+    "lib/R/library/boot/html/linear.approx.html",
+    "lib/R/library/boot/html/lines.saddle.distn.html",
+    "lib/R/library/boot/html/logit.html",
+    "lib/R/library/boot/html/manaus.html",
+    "lib/R/library/boot/html/melanoma.html",
+    "lib/R/library/boot/html/motor.html",
+    "lib/R/library/boot/html/neuro.html",
+    "lib/R/library/boot/html/nitrofen.html",
+    "lib/R/library/boot/html/nodal.html",
+    "lib/R/library/boot/html/norm.ci.html",
+    "lib/R/library/boot/html/nuclear.html",
+    "lib/R/library/boot/html/paulsen.html",
+    "lib/R/library/boot/html/plot.boot.html",
+    "lib/R/library/boot/html/poisons.html",
+    "lib/R/library/boot/html/polar.html",
+    "lib/R/library/boot/html/print.boot.html",
+    "lib/R/library/boot/html/print.bootci.html",
+    "lib/R/library/boot/html/print.saddle.distn.html",
+    "lib/R/library/boot/html/print.simplex.html",
+    "lib/R/library/boot/html/remission.html",
+    "lib/R/library/boot/html/saddle.distn.html",
+    "lib/R/library/boot/html/saddle.distn.object.html",
+    "lib/R/library/boot/html/saddle.html",
+    "lib/R/library/boot/html/salinity.html",
+    "lib/R/library/boot/html/simplex.html",
+    "lib/R/library/boot/html/simplex.object.html",
+    "lib/R/library/boot/html/smooth.f.html",
+    "lib/R/library/boot/html/sunspot.html",
+    "lib/R/library/boot/html/survival.html",
+    "lib/R/library/boot/html/tau.html",
+    "lib/R/library/boot/html/tilt.boot.html",
+    "lib/R/library/boot/html/tsboot.html",
+    "lib/R/library/boot/html/tuna.html",
+    "lib/R/library/boot/html/urine.html",
+    "lib/R/library/boot/html/var.linear.html",
+    "lib/R/library/boot/html/wool.html",
+    "lib/R/library/boot/po/de/LC_MESSAGES/R-boot.mo",
+    "lib/R/library/boot/po/en@quot/LC_MESSAGES/R-boot.mo",
+    "lib/R/library/boot/po/fr/LC_MESSAGES/R-boot.mo",
+    "lib/R/library/boot/po/ko/LC_MESSAGES/R-boot.mo",
+    "lib/R/library/boot/po/pl/LC_MESSAGES/R-boot.mo",
+    "lib/R/library/boot/po/ru/LC_MESSAGES/R-boot.mo"
+  ],
+  "fn": "r-boot-1.3_20-r36h6115d3f_0.tar.bz2",
+  "license": "Unlimited",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/ali/anaconda3/pkgs/r-boot-1.3_20-r36h6115d3f_0",
+    "type": 1
+  },
+  "md5": "6774aec778886f2c786b1aa39b69a143",
+  "name": "r-boot",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/ali/anaconda3/pkgs/r-boot-1.3_20-r36h6115d3f_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/boot/CITATION",
+        "path_type": "hardlink",
+        "sha256": "1968bf240a8fcf35a2b3b0214f8d10c672be343a6596d1d7d8a5cfb49158103a",
+        "sha256_in_prefix": "1968bf240a8fcf35a2b3b0214f8d10c672be343a6596d1d7d8a5cfb49158103a",
+        "size_in_bytes": 1231
+      },
+      {
+        "_path": "lib/R/library/boot/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "ef4091214808574a688ecc426f9c18c0df138dbb3600834043c7b630d99c16e5",
+        "sha256_in_prefix": "ef4091214808574a688ecc426f9c18c0df138dbb3600834043c7b630d99c16e5",
+        "size_in_bytes": 1155
+      },
+      {
+        "_path": "lib/R/library/boot/INDEX",
+        "path_type": "hardlink",
+        "sha256": "347fa70f10dffc74478483fc75946ff95369c7e6e5259b9837d793e2e76845da",
+        "sha256_in_prefix": "347fa70f10dffc74478483fc75946ff95369c7e6e5259b9837d793e2e76845da",
+        "size_in_bytes": 2911
+      },
+      {
+        "_path": "lib/R/library/boot/MD5",
+        "path_type": "hardlink",
+        "sha256": "b58dd6228685fac84983bc3c5e9e04c30e5791f9dfcbddbda238c26615f14a32",
+        "sha256_in_prefix": "b58dd6228685fac84983bc3c5e9e04c30e5791f9dfcbddbda238c26615f14a32",
+        "size_in_bytes": 6312
+      },
+      {
+        "_path": "lib/R/library/boot/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "b914539cd645fec6eeaed73ad38e58ab373ccf5908d66c717cbe2886d794359a",
+        "sha256_in_prefix": "b914539cd645fec6eeaed73ad38e58ab373ccf5908d66c717cbe2886d794359a",
+        "size_in_bytes": 3417
+      },
+      {
+        "_path": "lib/R/library/boot/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "95a72ee3760e5c83f61401e6107b1c75f04fed141e90d272f72b2f0b3e372036",
+        "sha256_in_prefix": "95a72ee3760e5c83f61401e6107b1c75f04fed141e90d272f72b2f0b3e372036",
+        "size_in_bytes": 1331
+      },
+      {
+        "_path": "lib/R/library/boot/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "ea994aae41523332316746487fbc8be7bae2a0ce42895c9449fa3eafbadc4dae",
+        "sha256_in_prefix": "ea994aae41523332316746487fbc8be7bae2a0ce42895c9449fa3eafbadc4dae",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/boot/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "a1a6571469db9bbbf57fd9e371d3095377d8ade751bc318f086f486f42ba241e",
+        "sha256_in_prefix": "a1a6571469db9bbbf57fd9e371d3095377d8ade751bc318f086f486f42ba241e",
+        "size_in_bytes": 3195
+      },
+      {
+        "_path": "lib/R/library/boot/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "73a034b1b2f840a448c328196f348c91236c3167602e2574817a1122f39876c8",
+        "sha256_in_prefix": "73a034b1b2f840a448c328196f348c91236c3167602e2574817a1122f39876c8",
+        "size_in_bytes": 1220
+      },
+      {
+        "_path": "lib/R/library/boot/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "a2f92c54b3ba483b9de525d63c9ff84aa4e7a94a730fb93072de1251191de38e",
+        "sha256_in_prefix": "a2f92c54b3ba483b9de525d63c9ff84aa4e7a94a730fb93072de1251191de38e",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "lib/R/library/boot/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "2cb5a98fb728ad6dc564e5f79ec92360b60b1fc66f9ee2ac7f7c585cf4e68a01",
+        "sha256_in_prefix": "2cb5a98fb728ad6dc564e5f79ec92360b60b1fc66f9ee2ac7f7c585cf4e68a01",
+        "size_in_bytes": 1035
+      },
+      {
+        "_path": "lib/R/library/boot/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "046c7e8b1560d1e1d1fac5f44e7c6f48b83755d148aa47a563fb15d36d3cc061",
+        "sha256_in_prefix": "046c7e8b1560d1e1d1fac5f44e7c6f48b83755d148aa47a563fb15d36d3cc061",
+        "size_in_bytes": 814
+      },
+      {
+        "_path": "lib/R/library/boot/R/boot",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/boot/R/boot.rdb",
+        "path_type": "hardlink",
+        "sha256": "88cca1a3e3544a60442f01a3e2b9fcff0c8d2d9c83e94caf4ba78e2c3a7ee44b",
+        "sha256_in_prefix": "88cca1a3e3544a60442f01a3e2b9fcff0c8d2d9c83e94caf4ba78e2c3a7ee44b",
+        "size_in_bytes": 203654
+      },
+      {
+        "_path": "lib/R/library/boot/R/boot.rdx",
+        "path_type": "hardlink",
+        "sha256": "8abaa83a7305cd3517e9d539629a7fa5bd98773a1687fd2b5f02de509306a54b",
+        "sha256_in_prefix": "8abaa83a7305cd3517e9d539629a7fa5bd98773a1687fd2b5f02de509306a54b",
+        "size_in_bytes": 1331
+      },
+      {
+        "_path": "lib/R/library/boot/bd.q",
+        "path_type": "hardlink",
+        "sha256": "f8052db934f638b45ab0c6b2def1f1441a25baa9493fcf7d20505a44bb56088a",
+        "sha256_in_prefix": "f8052db934f638b45ab0c6b2def1f1441a25baa9493fcf7d20505a44bb56088a",
+        "size_in_bytes": 15048
+      },
+      {
+        "_path": "lib/R/library/boot/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "5d9fd1a12b6661480216cc10eec7bf38eccf5872330b60eef170a6bee277326f",
+        "sha256_in_prefix": "5d9fd1a12b6661480216cc10eec7bf38eccf5872330b60eef170a6bee277326f",
+        "size_in_bytes": 87571
+      },
+      {
+        "_path": "lib/R/library/boot/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "9f0c3dd7d8b790de42d8a1d865b34dfb4c6468286accd944e2102b1c5fee1824",
+        "sha256_in_prefix": "9f0c3dd7d8b790de42d8a1d865b34dfb4c6468286accd944e2102b1c5fee1824",
+        "size_in_bytes": 482
+      },
+      {
+        "_path": "lib/R/library/boot/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "755e95a9afc4be4326c6ad71b00a6f62c2667f0ed6ede69342e0dbdd3e7d3560",
+        "sha256_in_prefix": "755e95a9afc4be4326c6ad71b00a6f62c2667f0ed6ede69342e0dbdd3e7d3560",
+        "size_in_bytes": 771
+      },
+      {
+        "_path": "lib/R/library/boot/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "3aca6b2b7e33d2597723187a976d0eeec7844de06f92bac11987a08ddb316cda",
+        "sha256_in_prefix": "3aca6b2b7e33d2597723187a976d0eeec7844de06f92bac11987a08ddb316cda",
+        "size_in_bytes": 1889
+      },
+      {
+        "_path": "lib/R/library/boot/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "06ab9f58281af4b02506097466dbc0dacc06be0d0fbb31bb8ec7bcad65d6c3fa",
+        "sha256_in_prefix": "06ab9f58281af4b02506097466dbc0dacc06be0d0fbb31bb8ec7bcad65d6c3fa",
+        "size_in_bytes": 793
+      },
+      {
+        "_path": "lib/R/library/boot/help/boot.rdb",
+        "path_type": "hardlink",
+        "sha256": "6047597923038f0b3c76bd49cf1f462872c5ecb000506f28bbd5a1be7ef6d10e",
+        "sha256_in_prefix": "6047597923038f0b3c76bd49cf1f462872c5ecb000506f28bbd5a1be7ef6d10e",
+        "size_in_bytes": 319711
+      },
+      {
+        "_path": "lib/R/library/boot/help/boot.rdx",
+        "path_type": "hardlink",
+        "sha256": "1be7f35c8de6554841af974fff04c2fb8b61b668d39e90cc0d136ffae882a84d",
+        "sha256_in_prefix": "1be7f35c8de6554841af974fff04c2fb8b61b668d39e90cc0d136ffae882a84d",
+        "size_in_bytes": 1983
+      },
+      {
+        "_path": "lib/R/library/boot/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "36a3399a2aafbb4214ad5fcb695db5d3f2207d79283471f6d0f9096a0d82392d",
+        "sha256_in_prefix": "36a3399a2aafbb4214ad5fcb695db5d3f2207d79283471f6d0f9096a0d82392d",
+        "size_in_bytes": 814
+      },
+      {
+        "_path": "lib/R/library/boot/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "076dfc3feff70265d134da0c9094ded983118d26380147f9ef04d4364dd54f3c",
+        "sha256_in_prefix": "076dfc3feff70265d134da0c9094ded983118d26380147f9ef04d4364dd54f3c",
+        "size_in_bytes": 12756
+      },
+      {
+        "_path": "lib/R/library/boot/html/EEF.profile.html",
+        "path_type": "hardlink",
+        "sha256": "838e8fa7356168319b3147a732df5a4325ab730e2219ef9b42d95c2d04fa1535",
+        "sha256_in_prefix": "838e8fa7356168319b3147a732df5a4325ab730e2219ef9b42d95c2d04fa1535",
+        "size_in_bytes": 3356
+      },
+      {
+        "_path": "lib/R/library/boot/html/Imp.Estimates.html",
+        "path_type": "hardlink",
+        "sha256": "f2757d50bad0a6af9eb5d3cb8c783b8ed9f368a4591006d9f36e267a4402aca1",
+        "sha256_in_prefix": "f2757d50bad0a6af9eb5d3cb8c783b8ed9f368a4591006d9f36e267a4402aca1",
+        "size_in_bytes": 8350
+      },
+      {
+        "_path": "lib/R/library/boot/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/boot/html/abc.ci.html",
+        "path_type": "hardlink",
+        "sha256": "83d6f48cf9c90bd026cd23c549486b9d15c3084618d5fc5549283a8941355a27",
+        "sha256_in_prefix": "83d6f48cf9c90bd026cd23c549486b9d15c3084618d5fc5549283a8941355a27",
+        "size_in_bytes": 4778
+      },
+      {
+        "_path": "lib/R/library/boot/html/acme.html",
+        "path_type": "hardlink",
+        "sha256": "10278d7830fd0008b9bfbcc2d6c45f7108efd1d1761c8458dee504d95d35ac22",
+        "sha256_in_prefix": "10278d7830fd0008b9bfbcc2d6c45f7108efd1d1761c8458dee504d95d35ac22",
+        "size_in_bytes": 1926
+      },
+      {
+        "_path": "lib/R/library/boot/html/aids.html",
+        "path_type": "hardlink",
+        "sha256": "4efb36c1d5cfcb2b48c0e0149bd6b6e6d8933bd29ebe4445988adad5059f1db0",
+        "sha256_in_prefix": "4efb36c1d5cfcb2b48c0e0149bd6b6e6d8933bd29ebe4445988adad5059f1db0",
+        "size_in_bytes": 2985
+      },
+      {
+        "_path": "lib/R/library/boot/html/aircondit.html",
+        "path_type": "hardlink",
+        "sha256": "e815f8116a4e6069db9b24199cbadb66ee2b03d197b0ca6d11cd2add01d66be7",
+        "sha256_in_prefix": "e815f8116a4e6069db9b24199cbadb66ee2b03d197b0ca6d11cd2add01d66be7",
+        "size_in_bytes": 1872
+      },
+      {
+        "_path": "lib/R/library/boot/html/amis.html",
+        "path_type": "hardlink",
+        "sha256": "90be996d4be7e1783a9f0ff15ca78e28f2ccc6686d1b76ccf03d6d34d959677f",
+        "sha256_in_prefix": "90be996d4be7e1783a9f0ff15ca78e28f2ccc6686d1b76ccf03d6d34d959677f",
+        "size_in_bytes": 2765
+      },
+      {
+        "_path": "lib/R/library/boot/html/aml.html",
+        "path_type": "hardlink",
+        "sha256": "fdd30fa6ad97581ec78409ceb036cfe354e65fea6ac758e10862af4de40b1e69",
+        "sha256_in_prefix": "fdd30fa6ad97581ec78409ceb036cfe354e65fea6ac758e10862af4de40b1e69",
+        "size_in_bytes": 2816
+      },
+      {
+        "_path": "lib/R/library/boot/html/beaver.html",
+        "path_type": "hardlink",
+        "sha256": "a79ec26b082f1d1aba3a1f7906097eeba14ae2c999ad4c269a8d18e9cf38734f",
+        "sha256_in_prefix": "a79ec26b082f1d1aba3a1f7906097eeba14ae2c999ad4c269a8d18e9cf38734f",
+        "size_in_bytes": 2558
+      },
+      {
+        "_path": "lib/R/library/boot/html/bigcity.html",
+        "path_type": "hardlink",
+        "sha256": "492dba9ba0d9f82844dfe03d1083ced136205a80004addf37b2140ddd95e5040",
+        "sha256_in_prefix": "492dba9ba0d9f82844dfe03d1083ced136205a80004addf37b2140ddd95e5040",
+        "size_in_bytes": 1695
+      },
+      {
+        "_path": "lib/R/library/boot/html/boot-practicals.html",
+        "path_type": "hardlink",
+        "sha256": "dd0f00aee2ebeeee721f7d48a4b2320446b220b2b7d8069890c4cdda8077a84f",
+        "sha256_in_prefix": "dd0f00aee2ebeeee721f7d48a4b2320446b220b2b7d8069890c4cdda8077a84f",
+        "size_in_bytes": 1469
+      },
+      {
+        "_path": "lib/R/library/boot/html/boot.array.html",
+        "path_type": "hardlink",
+        "sha256": "4feb105f9b6c67bfd7d78cbf0d82791cdd85f148b4ec87215e4c56ab47e13b80",
+        "sha256_in_prefix": "4feb105f9b6c67bfd7d78cbf0d82791cdd85f148b4ec87215e4c56ab47e13b80",
+        "size_in_bytes": 4115
+      },
+      {
+        "_path": "lib/R/library/boot/html/boot.ci.html",
+        "path_type": "hardlink",
+        "sha256": "0010af8d06996054339bf4c93bd9c1f17326586e46e267a55e10d267cba5fc01",
+        "sha256_in_prefix": "0010af8d06996054339bf4c93bd9c1f17326586e46e267a55e10d267cba5fc01",
+        "size_in_bytes": 12947
+      },
+      {
+        "_path": "lib/R/library/boot/html/boot.html",
+        "path_type": "hardlink",
+        "sha256": "0651d082ea1a45b84e2f33bdcb017748aaac9d48b39e59d8f2b06bfd5077f5d7",
+        "sha256_in_prefix": "0651d082ea1a45b84e2f33bdcb017748aaac9d48b39e59d8f2b06bfd5077f5d7",
+        "size_in_bytes": 22200
+      },
+      {
+        "_path": "lib/R/library/boot/html/brambles.html",
+        "path_type": "hardlink",
+        "sha256": "dfacf698cb16c6e217c078fe6e5b857bb6c56cb38b0dbe8d14e4e3af1509ba50",
+        "sha256_in_prefix": "dfacf698cb16c6e217c078fe6e5b857bb6c56cb38b0dbe8d14e4e3af1509ba50",
+        "size_in_bytes": 1918
+      },
+      {
+        "_path": "lib/R/library/boot/html/breslow.html",
+        "path_type": "hardlink",
+        "sha256": "c982033b8a2add8583bf2b4d7ac36e76755647bfe4fbc0cc5b98460c636dbf4d",
+        "sha256_in_prefix": "c982033b8a2add8583bf2b4d7ac36e76755647bfe4fbc0cc5b98460c636dbf4d",
+        "size_in_bytes": 2519
+      },
+      {
+        "_path": "lib/R/library/boot/html/calcium.html",
+        "path_type": "hardlink",
+        "sha256": "31e1507878463856da9bab42ec5701b3d6901ef4ec4f6790b84c952483aa3f24",
+        "sha256_in_prefix": "31e1507878463856da9bab42ec5701b3d6901ef4ec4f6790b84c952483aa3f24",
+        "size_in_bytes": 1950
+      },
+      {
+        "_path": "lib/R/library/boot/html/cane.html",
+        "path_type": "hardlink",
+        "sha256": "9a695fb3d43d21a6f92f8540772b363394095a9ec2b45c4867e7192893c9171d",
+        "sha256_in_prefix": "9a695fb3d43d21a6f92f8540772b363394095a9ec2b45c4867e7192893c9171d",
+        "size_in_bytes": 2334
+      },
+      {
+        "_path": "lib/R/library/boot/html/capability.html",
+        "path_type": "hardlink",
+        "sha256": "0587bec2f6ecbc97816ed47da3151bbc3953b4cfaa60f5097dca0e062c56ef02",
+        "sha256_in_prefix": "0587bec2f6ecbc97816ed47da3151bbc3953b4cfaa60f5097dca0e062c56ef02",
+        "size_in_bytes": 1749
+      },
+      {
+        "_path": "lib/R/library/boot/html/catsM.html",
+        "path_type": "hardlink",
+        "sha256": "3c2fa9d7fbded1776f189e22105ea68b0bdc4262ef14929951f04ffd6db28a11",
+        "sha256_in_prefix": "3c2fa9d7fbded1776f189e22105ea68b0bdc4262ef14929951f04ffd6db28a11",
+        "size_in_bytes": 2050
+      },
+      {
+        "_path": "lib/R/library/boot/html/cav.html",
+        "path_type": "hardlink",
+        "sha256": "4a59352c3fd94f500cc0f86e1e8ded0004a0b5dddee3a8cf6e3f28f4c051d4e2",
+        "sha256_in_prefix": "4a59352c3fd94f500cc0f86e1e8ded0004a0b5dddee3a8cf6e3f28f4c051d4e2",
+        "size_in_bytes": 1901
+      },
+      {
+        "_path": "lib/R/library/boot/html/cd4.html",
+        "path_type": "hardlink",
+        "sha256": "11d6773cea6533c15714f2192520198a4f08aa7a3ad80c93d536b20c5edeec5a",
+        "sha256_in_prefix": "11d6773cea6533c15714f2192520198a4f08aa7a3ad80c93d536b20c5edeec5a",
+        "size_in_bytes": 2164
+      },
+      {
+        "_path": "lib/R/library/boot/html/cd4.nested.html",
+        "path_type": "hardlink",
+        "sha256": "c928f450cb94624fa4654d0458c4568660a01d674acf9f45df4115c13dacdfe5",
+        "sha256_in_prefix": "c928f450cb94624fa4654d0458c4568660a01d674acf9f45df4115c13dacdfe5",
+        "size_in_bytes": 1134
+      },
+      {
+        "_path": "lib/R/library/boot/html/censboot.html",
+        "path_type": "hardlink",
+        "sha256": "756b82b7fdbf166d57d91676604171c373968d59cb2656358500be9120cda8d9",
+        "sha256_in_prefix": "756b82b7fdbf166d57d91676604171c373968d59cb2656358500be9120cda8d9",
+        "size_in_bytes": 15925
+      },
+      {
+        "_path": "lib/R/library/boot/html/channing.html",
+        "path_type": "hardlink",
+        "sha256": "da47fdd3fe2e8bb78f32e3608b538b330f8c4ac4737188695f99dcb220441fdf",
+        "sha256_in_prefix": "da47fdd3fe2e8bb78f32e3608b538b330f8c4ac4737188695f99dcb220441fdf",
+        "size_in_bytes": 2785
+      },
+      {
+        "_path": "lib/R/library/boot/html/claridge.html",
+        "path_type": "hardlink",
+        "sha256": "c876d128603087a6f9ec8d47d4bf71dc8387d65944f556356469e9fe33f7315c",
+        "sha256_in_prefix": "c876d128603087a6f9ec8d47d4bf71dc8387d65944f556356469e9fe33f7315c",
+        "size_in_bytes": 2437
+      },
+      {
+        "_path": "lib/R/library/boot/html/cloth.html",
+        "path_type": "hardlink",
+        "sha256": "4c5fa4b14f168e8fbd57b47bba81f5a5c40ef87adccfae828ec3c8477d8a3b51",
+        "sha256_in_prefix": "4c5fa4b14f168e8fbd57b47bba81f5a5c40ef87adccfae828ec3c8477d8a3b51",
+        "size_in_bytes": 1414
+      },
+      {
+        "_path": "lib/R/library/boot/html/co.transfer.html",
+        "path_type": "hardlink",
+        "sha256": "95b56317b7e0f8720bd132b6c32f3946cb9c5a98d57dc244e775a780985e32ad",
+        "sha256_in_prefix": "95b56317b7e0f8720bd132b6c32f3946cb9c5a98d57dc244e775a780985e32ad",
+        "size_in_bytes": 1927
+      },
+      {
+        "_path": "lib/R/library/boot/html/coal.html",
+        "path_type": "hardlink",
+        "sha256": "3e0af4201427b0828229a84f9325dd2b8d6be57f549628786c29077b67d94f56",
+        "sha256_in_prefix": "3e0af4201427b0828229a84f9325dd2b8d6be57f549628786c29077b67d94f56",
+        "size_in_bytes": 1801
+      },
+      {
+        "_path": "lib/R/library/boot/html/control.html",
+        "path_type": "hardlink",
+        "sha256": "8d917500558f14ed905aa9e239245a0a2e077b209ee2e038388ce71a56af093d",
+        "sha256_in_prefix": "8d917500558f14ed905aa9e239245a0a2e077b209ee2e038388ce71a56af093d",
+        "size_in_bytes": 8058
+      },
+      {
+        "_path": "lib/R/library/boot/html/corr.html",
+        "path_type": "hardlink",
+        "sha256": "2ea749af11d9c9c8276ae4ea569caa2093b514c525a1b621889bc44c85e083ea",
+        "sha256_in_prefix": "2ea749af11d9c9c8276ae4ea569caa2093b514c525a1b621889bc44c85e083ea",
+        "size_in_bytes": 1872
+      },
+      {
+        "_path": "lib/R/library/boot/html/cum3.html",
+        "path_type": "hardlink",
+        "sha256": "1cddfd02f4457d0c805e2ff88f1527a4ac89cdc8d39a2f9038a933bd922fa480",
+        "sha256_in_prefix": "1cddfd02f4457d0c805e2ff88f1527a4ac89cdc8d39a2f9038a933bd922fa480",
+        "size_in_bytes": 2131
+      },
+      {
+        "_path": "lib/R/library/boot/html/cv.glm.html",
+        "path_type": "hardlink",
+        "sha256": "cbe93b5314446a2ab4e7d1b81d524d70a1ade5576267a46a1f5014cab1c2ecb7",
+        "sha256_in_prefix": "cbe93b5314446a2ab4e7d1b81d524d70a1ade5576267a46a1f5014cab1c2ecb7",
+        "size_in_bytes": 6586
+      },
+      {
+        "_path": "lib/R/library/boot/html/darwin.html",
+        "path_type": "hardlink",
+        "sha256": "8a15bf20ededa7eb4788e9656f1231f00afd2ea3dc53a2e948f850f541afc232",
+        "sha256_in_prefix": "8a15bf20ededa7eb4788e9656f1231f00afd2ea3dc53a2e948f850f541afc232",
+        "size_in_bytes": 1944
+      },
+      {
+        "_path": "lib/R/library/boot/html/dogs.html",
+        "path_type": "hardlink",
+        "sha256": "c0a90b8494686e4220d14c5ade76e4d57a751c5ee005e64d9a0e61b8f877614a",
+        "sha256_in_prefix": "c0a90b8494686e4220d14c5ade76e4d57a751c5ee005e64d9a0e61b8f877614a",
+        "size_in_bytes": 1293
+      },
+      {
+        "_path": "lib/R/library/boot/html/downs.bc.html",
+        "path_type": "hardlink",
+        "sha256": "c6b22e31701b2b1a46fa8073771940e6cbfb8a0cdb84fcc5230d04de3c459e40",
+        "sha256_in_prefix": "c6b22e31701b2b1a46fa8073771940e6cbfb8a0cdb84fcc5230d04de3c459e40",
+        "size_in_bytes": 2419
+      },
+      {
+        "_path": "lib/R/library/boot/html/ducks.html",
+        "path_type": "hardlink",
+        "sha256": "9d2a2fadaa70817b4389ca6119fb308c8d23e8b8272f89ba92f3e38f9b742a6e",
+        "sha256_in_prefix": "9d2a2fadaa70817b4389ca6119fb308c8d23e8b8272f89ba92f3e38f9b742a6e",
+        "size_in_bytes": 2451
+      },
+      {
+        "_path": "lib/R/library/boot/html/empinf.html",
+        "path_type": "hardlink",
+        "sha256": "80b53d7c43af3bafdb17dfafd0fbcd778005fed41fcd9f1c51a2106a374b5152",
+        "sha256_in_prefix": "80b53d7c43af3bafdb17dfafd0fbcd778005fed41fcd9f1c51a2106a374b5152",
+        "size_in_bytes": 10200
+      },
+      {
+        "_path": "lib/R/library/boot/html/envelope.html",
+        "path_type": "hardlink",
+        "sha256": "df410dd20bd68c2b4b24bcfabe3ff8c2ff765bd3ec13b3759f5c344613feb2d3",
+        "sha256_in_prefix": "df410dd20bd68c2b4b24bcfabe3ff8c2ff765bd3ec13b3759f5c344613feb2d3",
+        "size_in_bytes": 5467
+      },
+      {
+        "_path": "lib/R/library/boot/html/exp.tilt.html",
+        "path_type": "hardlink",
+        "sha256": "dc95050ef2dc4360043b4a153d0e9033ea8825cb1c29c477234a05e99e342445",
+        "sha256_in_prefix": "dc95050ef2dc4360043b4a153d0e9033ea8825cb1c29c477234a05e99e342445",
+        "size_in_bytes": 7349
+      },
+      {
+        "_path": "lib/R/library/boot/html/fir.html",
+        "path_type": "hardlink",
+        "sha256": "3a27eecf888eb184446ca0cbc07c499175cabc5cfb1ba121c1d6258bd666a686",
+        "sha256_in_prefix": "3a27eecf888eb184446ca0cbc07c499175cabc5cfb1ba121c1d6258bd666a686",
+        "size_in_bytes": 1494
+      },
+      {
+        "_path": "lib/R/library/boot/html/freq.array.html",
+        "path_type": "hardlink",
+        "sha256": "591d53eb378ae7ce7ed597bc43e6d3060ca47b4b62289071aaef1d4b2042086f",
+        "sha256_in_prefix": "591d53eb378ae7ce7ed597bc43e6d3060ca47b4b62289071aaef1d4b2042086f",
+        "size_in_bytes": 2157
+      },
+      {
+        "_path": "lib/R/library/boot/html/frets.html",
+        "path_type": "hardlink",
+        "sha256": "dfd122a3ee5b3c0071c1056f82d70bbf980d3bff63a81569fb8e2b7c6978fdc6",
+        "sha256_in_prefix": "dfd122a3ee5b3c0071c1056f82d70bbf980d3bff63a81569fb8e2b7c6978fdc6",
+        "size_in_bytes": 1847
+      },
+      {
+        "_path": "lib/R/library/boot/html/glm.diag.html",
+        "path_type": "hardlink",
+        "sha256": "2f2864c34fd7752bc001347232653363deb329a62d3581afade1d9af11ca3c25",
+        "sha256_in_prefix": "2f2864c34fd7752bc001347232653363deb329a62d3581afade1d9af11ca3c25",
+        "size_in_bytes": 2860
+      },
+      {
+        "_path": "lib/R/library/boot/html/glm.diag.plots.html",
+        "path_type": "hardlink",
+        "sha256": "b13d2bdbd8b3b4021395a10be36d738482918f34e3eeb4fba3ce8d53d2365f22",
+        "sha256_in_prefix": "b13d2bdbd8b3b4021395a10be36d738482918f34e3eeb4fba3ce8d53d2365f22",
+        "size_in_bytes": 5932
+      },
+      {
+        "_path": "lib/R/library/boot/html/gravity.html",
+        "path_type": "hardlink",
+        "sha256": "61db23be15b6b1fb555ea5b9c5de0e6fe2ac64a0cea92fa05bdb60d4f7914f83",
+        "sha256_in_prefix": "61db23be15b6b1fb555ea5b9c5de0e6fe2ac64a0cea92fa05bdb60d4f7914f83",
+        "size_in_bytes": 2297
+      },
+      {
+        "_path": "lib/R/library/boot/html/hirose.html",
+        "path_type": "hardlink",
+        "sha256": "66455f7359ca2a4853c745b023c5754b2a46c0306dcaa3d1d84a8ee983275e7b",
+        "sha256_in_prefix": "66455f7359ca2a4853c745b023c5754b2a46c0306dcaa3d1d84a8ee983275e7b",
+        "size_in_bytes": 1744
+      },
+      {
+        "_path": "lib/R/library/boot/html/imp.weights.html",
+        "path_type": "hardlink",
+        "sha256": "5cea78680dd625fd2ab15e320cddf3141d1c52ffc8c3c23a5fc33bead5310a43",
+        "sha256_in_prefix": "5cea78680dd625fd2ab15e320cddf3141d1c52ffc8c3c23a5fc33bead5310a43",
+        "size_in_bytes": 4211
+      },
+      {
+        "_path": "lib/R/library/boot/html/inv.logit.html",
+        "path_type": "hardlink",
+        "sha256": "4370417f37ca209029dd3a50d7e1973a4dee7c51a1e9f8a036682057cc102f33",
+        "sha256_in_prefix": "4370417f37ca209029dd3a50d7e1973a4dee7c51a1e9f8a036682057cc102f33",
+        "size_in_bytes": 1612
+      },
+      {
+        "_path": "lib/R/library/boot/html/islay.html",
+        "path_type": "hardlink",
+        "sha256": "f7c21a23ccce453d3aa7185f36bbcf9bcab69b1969b5a2be882816081b856900",
+        "sha256_in_prefix": "f7c21a23ccce453d3aa7185f36bbcf9bcab69b1969b5a2be882816081b856900",
+        "size_in_bytes": 1585
+      },
+      {
+        "_path": "lib/R/library/boot/html/jack.after.boot.html",
+        "path_type": "hardlink",
+        "sha256": "7b27660080f5a8a76ab06d765c805e295e461f919e2e8785f1462ac9bf6b932b",
+        "sha256_in_prefix": "7b27660080f5a8a76ab06d765c805e295e461f919e2e8785f1462ac9bf6b932b",
+        "size_in_bytes": 7280
+      },
+      {
+        "_path": "lib/R/library/boot/html/k3.linear.html",
+        "path_type": "hardlink",
+        "sha256": "dc4db30169e901bb388f47804f9a1a8a93429f52245978c5771503ab1d5ea778",
+        "sha256_in_prefix": "dc4db30169e901bb388f47804f9a1a8a93429f52245978c5771503ab1d5ea778",
+        "size_in_bytes": 1975
+      },
+      {
+        "_path": "lib/R/library/boot/html/linear.approx.html",
+        "path_type": "hardlink",
+        "sha256": "109c2c439c5a5eeeb14f043323e813fe665117b455f3866d7b5b375d696f1f08",
+        "sha256_in_prefix": "109c2c439c5a5eeeb14f043323e813fe665117b455f3866d7b5b375d696f1f08",
+        "size_in_bytes": 5677
+      },
+      {
+        "_path": "lib/R/library/boot/html/lines.saddle.distn.html",
+        "path_type": "hardlink",
+        "sha256": "a9f827966435b515988462e739734f94ab1f53577adf2a79085e77085c478261",
+        "sha256_in_prefix": "a9f827966435b515988462e739734f94ab1f53577adf2a79085e77085c478261",
+        "size_in_bytes": 4264
+      },
+      {
+        "_path": "lib/R/library/boot/html/logit.html",
+        "path_type": "hardlink",
+        "sha256": "60740309ccdbc94695540e2f5b26de8b91a4677bac5041915e25c4df721dfe61",
+        "sha256_in_prefix": "60740309ccdbc94695540e2f5b26de8b91a4677bac5041915e25c4df721dfe61",
+        "size_in_bytes": 1708
+      },
+      {
+        "_path": "lib/R/library/boot/html/manaus.html",
+        "path_type": "hardlink",
+        "sha256": "1354a5ab1a40d15437754f7d7a39f2376a0f01549ed70ceaf82123f61e00915e",
+        "sha256_in_prefix": "1354a5ab1a40d15437754f7d7a39f2376a0f01549ed70ceaf82123f61e00915e",
+        "size_in_bytes": 2719
+      },
+      {
+        "_path": "lib/R/library/boot/html/melanoma.html",
+        "path_type": "hardlink",
+        "sha256": "6fd57e80a13a02c0b397aa533f0b00356fba9cb87c4b3bfbf60e8d84df018fdf",
+        "sha256_in_prefix": "6fd57e80a13a02c0b397aa533f0b00356fba9cb87c4b3bfbf60e8d84df018fdf",
+        "size_in_bytes": 3003
+      },
+      {
+        "_path": "lib/R/library/boot/html/motor.html",
+        "path_type": "hardlink",
+        "sha256": "8a2950140534b8ed89206a3672956c728331e786a155c7fca8e560aed9879017",
+        "sha256_in_prefix": "8a2950140534b8ed89206a3672956c728331e786a155c7fca8e560aed9879017",
+        "size_in_bytes": 2280
+      },
+      {
+        "_path": "lib/R/library/boot/html/neuro.html",
+        "path_type": "hardlink",
+        "sha256": "5b7d93c9ca5390b00091277efb5d14bd645d3552992d383fbd5c1a94c3f21065",
+        "sha256_in_prefix": "5b7d93c9ca5390b00091277efb5d14bd645d3552992d383fbd5c1a94c3f21065",
+        "size_in_bytes": 1721
+      },
+      {
+        "_path": "lib/R/library/boot/html/nitrofen.html",
+        "path_type": "hardlink",
+        "sha256": "8ef338e3d87c64a913253350a307ae2b677e84673667487878f65067f03136b0",
+        "sha256_in_prefix": "8ef338e3d87c64a913253350a307ae2b677e84673667487878f65067f03136b0",
+        "size_in_bytes": 2750
+      },
+      {
+        "_path": "lib/R/library/boot/html/nodal.html",
+        "path_type": "hardlink",
+        "sha256": "d4c72fd463e68aad05e14b97d5ebff1c6df8f419a7d2fc153916c6f9fa555ed4",
+        "sha256_in_prefix": "d4c72fd463e68aad05e14b97d5ebff1c6df8f419a7d2fc153916c6f9fa555ed4",
+        "size_in_bytes": 3151
+      },
+      {
+        "_path": "lib/R/library/boot/html/norm.ci.html",
+        "path_type": "hardlink",
+        "sha256": "566460fa8dc2e211baaf101e78689e611caa632287378e8ad1d0b670f9bf7066",
+        "sha256_in_prefix": "566460fa8dc2e211baaf101e78689e611caa632287378e8ad1d0b670f9bf7066",
+        "size_in_bytes": 6052
+      },
+      {
+        "_path": "lib/R/library/boot/html/nuclear.html",
+        "path_type": "hardlink",
+        "sha256": "d61f6a092f50eb517970bf1540780cebdbebe137caaf92a449caa34b8d0bcc4f",
+        "sha256_in_prefix": "d61f6a092f50eb517970bf1540780cebdbebe137caaf92a449caa34b8d0bcc4f",
+        "size_in_bytes": 3225
+      },
+      {
+        "_path": "lib/R/library/boot/html/paulsen.html",
+        "path_type": "hardlink",
+        "sha256": "80c433ff106d03e487513300b8dc99d96ad3d835938d317b78117e401f61fce2",
+        "sha256_in_prefix": "80c433ff106d03e487513300b8dc99d96ad3d835938d317b78117e401f61fce2",
+        "size_in_bytes": 2251
+      },
+      {
+        "_path": "lib/R/library/boot/html/plot.boot.html",
+        "path_type": "hardlink",
+        "sha256": "977329edaa77bdc297c57b69dcd3368d3ae734d4aed61e771e8c1ffea66fc9a9",
+        "sha256_in_prefix": "977329edaa77bdc297c57b69dcd3368d3ae734d4aed61e771e8c1ffea66fc9a9",
+        "size_in_bytes": 7270
+      },
+      {
+        "_path": "lib/R/library/boot/html/poisons.html",
+        "path_type": "hardlink",
+        "sha256": "506d16b462a4ce7bed8572892d2115abd3bf417b10546447947f7450b862e6ac",
+        "sha256_in_prefix": "506d16b462a4ce7bed8572892d2115abd3bf417b10546447947f7450b862e6ac",
+        "size_in_bytes": 1945
+      },
+      {
+        "_path": "lib/R/library/boot/html/polar.html",
+        "path_type": "hardlink",
+        "sha256": "ef182039338da06b234a11b45ed018f683e2f4584eaba98d86f828258e7a4b59",
+        "sha256_in_prefix": "ef182039338da06b234a11b45ed018f683e2f4584eaba98d86f828258e7a4b59",
+        "size_in_bytes": 1679
+      },
+      {
+        "_path": "lib/R/library/boot/html/print.boot.html",
+        "path_type": "hardlink",
+        "sha256": "dce3eea3e02f95d6e1f6164f10e65d3e8398db4191850428e69d523da48fe14c",
+        "sha256_in_prefix": "dce3eea3e02f95d6e1f6164f10e65d3e8398db4191850428e69d523da48fe14c",
+        "size_in_bytes": 3045
+      },
+      {
+        "_path": "lib/R/library/boot/html/print.bootci.html",
+        "path_type": "hardlink",
+        "sha256": "153b1d41b01de30bb8ab3759f1fea161a30d63bfeaab31613cf354a3c8345bc9",
+        "sha256_in_prefix": "153b1d41b01de30bb8ab3759f1fea161a30d63bfeaab31613cf354a3c8345bc9",
+        "size_in_bytes": 2527
+      },
+      {
+        "_path": "lib/R/library/boot/html/print.saddle.distn.html",
+        "path_type": "hardlink",
+        "sha256": "91810ce01f4ecdac1d69ebec93848dac01ebc2a30bf25d57bc323629e147883a",
+        "sha256_in_prefix": "91810ce01f4ecdac1d69ebec93848dac01ebc2a30bf25d57bc323629e147883a",
+        "size_in_bytes": 1734
+      },
+      {
+        "_path": "lib/R/library/boot/html/print.simplex.html",
+        "path_type": "hardlink",
+        "sha256": "f33ee0c7ffa5c59977b4215c01ff92e40645486ddf92452003411fe33b8bc224",
+        "sha256_in_prefix": "f33ee0c7ffa5c59977b4215c01ff92e40645486ddf92452003411fe33b8bc224",
+        "size_in_bytes": 1985
+      },
+      {
+        "_path": "lib/R/library/boot/html/remission.html",
+        "path_type": "hardlink",
+        "sha256": "665108cd375b447c19788bdaa2f592172aeceaf6ef89ea9fed32cbeaee3357f2",
+        "sha256_in_prefix": "665108cd375b447c19788bdaa2f592172aeceaf6ef89ea9fed32cbeaee3357f2",
+        "size_in_bytes": 1554
+      },
+      {
+        "_path": "lib/R/library/boot/html/saddle.distn.html",
+        "path_type": "hardlink",
+        "sha256": "2cea364d4fc0f0bd832b40b9f18a6c60f3391a65ee11417a1a959676481e2faa",
+        "sha256_in_prefix": "2cea364d4fc0f0bd832b40b9f18a6c60f3391a65ee11417a1a959676481e2faa",
+        "size_in_bytes": 11206
+      },
+      {
+        "_path": "lib/R/library/boot/html/saddle.distn.object.html",
+        "path_type": "hardlink",
+        "sha256": "024f602e54359f9cc479af24a4b5ff2f5026075d465ed16c4e5f1cf4da91c767",
+        "sha256_in_prefix": "024f602e54359f9cc479af24a4b5ff2f5026075d465ed16c4e5f1cf4da91c767",
+        "size_in_bytes": 3162
+      },
+      {
+        "_path": "lib/R/library/boot/html/saddle.html",
+        "path_type": "hardlink",
+        "sha256": "7d99da2c694b568b75ad30ef1f46d55160ff48c9b877123eeb639e0070cd74e3",
+        "sha256_in_prefix": "7d99da2c694b568b75ad30ef1f46d55160ff48c9b877123eeb639e0070cd74e3",
+        "size_in_bytes": 9380
+      },
+      {
+        "_path": "lib/R/library/boot/html/salinity.html",
+        "path_type": "hardlink",
+        "sha256": "1fc657a91736228fd57e0886673749c4909067d3d9b4e5782485177cb81197df",
+        "sha256_in_prefix": "1fc657a91736228fd57e0886673749c4909067d3d9b4e5782485177cb81197df",
+        "size_in_bytes": 2289
+      },
+      {
+        "_path": "lib/R/library/boot/html/simplex.html",
+        "path_type": "hardlink",
+        "sha256": "154bd6d0f554e71176c0d09da1c8140eaa5b1e01d09ad00dbbb49c341c5ecd2e",
+        "sha256_in_prefix": "154bd6d0f554e71176c0d09da1c8140eaa5b1e01d09ad00dbbb49c341c5ecd2e",
+        "size_in_bytes": 5952
+      },
+      {
+        "_path": "lib/R/library/boot/html/simplex.object.html",
+        "path_type": "hardlink",
+        "sha256": "40df5821825b60a5eafab533ab3c893639c5659ce17f483410535c3c6ee4f424",
+        "sha256_in_prefix": "40df5821825b60a5eafab533ab3c893639c5659ce17f483410535c3c6ee4f424",
+        "size_in_bytes": 4596
+      },
+      {
+        "_path": "lib/R/library/boot/html/smooth.f.html",
+        "path_type": "hardlink",
+        "sha256": "c8d6dbe6f816d3f73a7affd7db5dd7104d30670e60006b63a0ec810e3532d54a",
+        "sha256_in_prefix": "c8d6dbe6f816d3f73a7affd7db5dd7104d30670e60006b63a0ec810e3532d54a",
+        "size_in_bytes": 6036
+      },
+      {
+        "_path": "lib/R/library/boot/html/sunspot.html",
+        "path_type": "hardlink",
+        "sha256": "546d8c1ac83d1aa63159a7d46ac3f89368003f15a9ac9937dbcbe9acf61c6da5",
+        "sha256_in_prefix": "546d8c1ac83d1aa63159a7d46ac3f89368003f15a9ac9937dbcbe9acf61c6da5",
+        "size_in_bytes": 2063
+      },
+      {
+        "_path": "lib/R/library/boot/html/survival.html",
+        "path_type": "hardlink",
+        "sha256": "3341e6c15d35242a8c1d908a3c7acaa36f67c6f0e4a41db74a65a85de7166e27",
+        "sha256_in_prefix": "3341e6c15d35242a8c1d908a3c7acaa36f67c6f0e4a41db74a65a85de7166e27",
+        "size_in_bytes": 1683
+      },
+      {
+        "_path": "lib/R/library/boot/html/tau.html",
+        "path_type": "hardlink",
+        "sha256": "fcbb76610b9eda914768ec9a4d20ac044bdcdc05e98ea3ac46de54fb1176283f",
+        "sha256_in_prefix": "fcbb76610b9eda914768ec9a4d20ac044bdcdc05e98ea3ac46de54fb1176283f",
+        "size_in_bytes": 2891
+      },
+      {
+        "_path": "lib/R/library/boot/html/tilt.boot.html",
+        "path_type": "hardlink",
+        "sha256": "677e31d479dd8864bca2e9a4c69b43b099ae9a4865cedb490eb3cb650b2504e3",
+        "sha256_in_prefix": "677e31d479dd8864bca2e9a4c69b43b099ae9a4865cedb490eb3cb650b2504e3",
+        "size_in_bytes": 10840
+      },
+      {
+        "_path": "lib/R/library/boot/html/tsboot.html",
+        "path_type": "hardlink",
+        "sha256": "5463292c242d6ca6e5728f9ea89e53d89e7a060212512a12a60defcbbaf431d4",
+        "sha256_in_prefix": "5463292c242d6ca6e5728f9ea89e53d89e7a060212512a12a60defcbbaf431d4",
+        "size_in_bytes": 13591
+      },
+      {
+        "_path": "lib/R/library/boot/html/tuna.html",
+        "path_type": "hardlink",
+        "sha256": "a32599d7f664fc73c54c1734810790c0d7a1811b1d68df9e4b05db730ff87d33",
+        "sha256_in_prefix": "a32599d7f664fc73c54c1734810790c0d7a1811b1d68df9e4b05db730ff87d33",
+        "size_in_bytes": 1783
+      },
+      {
+        "_path": "lib/R/library/boot/html/urine.html",
+        "path_type": "hardlink",
+        "sha256": "c7d0728cfdae3d84f583def3191c1f9e4bddc026cefdf309b45e763d2d2d1ee0",
+        "sha256_in_prefix": "c7d0728cfdae3d84f583def3191c1f9e4bddc026cefdf309b45e763d2d2d1ee0",
+        "size_in_bytes": 2232
+      },
+      {
+        "_path": "lib/R/library/boot/html/var.linear.html",
+        "path_type": "hardlink",
+        "sha256": "1718616f0dbc2bf4bf8115cbec6385378f353d3577cfbd81508778e5e7b15e41",
+        "sha256_in_prefix": "1718616f0dbc2bf4bf8115cbec6385378f353d3577cfbd81508778e5e7b15e41",
+        "size_in_bytes": 1967
+      },
+      {
+        "_path": "lib/R/library/boot/html/wool.html",
+        "path_type": "hardlink",
+        "sha256": "597e77e6feb314d4dc328e5ba9b1a4ad5e249f4832e522846bceb63b9b2e2342",
+        "sha256_in_prefix": "597e77e6feb314d4dc328e5ba9b1a4ad5e249f4832e522846bceb63b9b2e2342",
+        "size_in_bytes": 1576
+      },
+      {
+        "_path": "lib/R/library/boot/po/de/LC_MESSAGES/R-boot.mo",
+        "path_type": "hardlink",
+        "sha256": "5f2195e9b9321a3152353146085f5aab6bfb664eff3fa08dc1a42ff1e94fed5e",
+        "sha256_in_prefix": "5f2195e9b9321a3152353146085f5aab6bfb664eff3fa08dc1a42ff1e94fed5e",
+        "size_in_bytes": 8552
+      },
+      {
+        "_path": "lib/R/library/boot/po/en@quot/LC_MESSAGES/R-boot.mo",
+        "path_type": "hardlink",
+        "sha256": "0213ca694bb0ac23129da2349f4347ad21ef7f4afdc8c1361bb0de32cf0e1e9c",
+        "sha256_in_prefix": "0213ca694bb0ac23129da2349f4347ad21ef7f4afdc8c1361bb0de32cf0e1e9c",
+        "size_in_bytes": 8188
+      },
+      {
+        "_path": "lib/R/library/boot/po/fr/LC_MESSAGES/R-boot.mo",
+        "path_type": "hardlink",
+        "sha256": "2e65a90334f5bc746cf3e35af1651618341ecf36aae0eceef00a1e8aad363ba6",
+        "sha256_in_prefix": "2e65a90334f5bc746cf3e35af1651618341ecf36aae0eceef00a1e8aad363ba6",
+        "size_in_bytes": 8639
+      },
+      {
+        "_path": "lib/R/library/boot/po/ko/LC_MESSAGES/R-boot.mo",
+        "path_type": "hardlink",
+        "sha256": "ef615a0866ce388a99967b1bf73bfe4e83b271e0e59c97b7f580c8749107f1d4",
+        "sha256_in_prefix": "ef615a0866ce388a99967b1bf73bfe4e83b271e0e59c97b7f580c8749107f1d4",
+        "size_in_bytes": 10519
+      },
+      {
+        "_path": "lib/R/library/boot/po/pl/LC_MESSAGES/R-boot.mo",
+        "path_type": "hardlink",
+        "sha256": "99c62cbccbc9346ca513d1cd96c7f34928a68abb12ca481388bcb7e7c3686a4a",
+        "sha256_in_prefix": "99c62cbccbc9346ca513d1cd96c7f34928a68abb12ca481388bcb7e7c3686a4a",
+        "size_in_bytes": 8916
+      },
+      {
+        "_path": "lib/R/library/boot/po/ru/LC_MESSAGES/R-boot.mo",
+        "path_type": "hardlink",
+        "sha256": "90c909d7cfb330447631984f29787960897a202048b38b032da9a2dfac2f288f",
+        "sha256_in_prefix": "90c909d7cfb330447631984f29787960897a202048b38b032da9a2dfac2f288f",
+        "size_in_bytes": 8321
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "62c294212fd3418aab9071382b5b1717a4014b097ed30bf2698a09ec1cb0ea3d",
+  "size": 714719,
+  "subdir": "noarch",
+  "timestamp": 1557936505656,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/noarch/r-boot-1.3_20-r36h6115d3f_0.tar.bz2",
+  "version": "1.3_20"
+}

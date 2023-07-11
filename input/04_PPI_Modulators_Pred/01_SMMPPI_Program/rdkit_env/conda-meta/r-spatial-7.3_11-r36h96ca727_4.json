@@ -1,0 +1,458 @@
+{
+  "build": "r36h96ca727_4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/r/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "/home/ali/anaconda3/pkgs/r-spatial-7.3_11-r36h96ca727_4",
+  "features": "",
+  "files": [
+    "lib/R/library/spatial/CITATION",
+    "lib/R/library/spatial/DESCRIPTION",
+    "lib/R/library/spatial/INDEX",
+    "lib/R/library/spatial/Meta/Rd.rds",
+    "lib/R/library/spatial/Meta/features.rds",
+    "lib/R/library/spatial/Meta/hsearch.rds",
+    "lib/R/library/spatial/Meta/links.rds",
+    "lib/R/library/spatial/Meta/nsInfo.rds",
+    "lib/R/library/spatial/Meta/package.rds",
+    "lib/R/library/spatial/NAMESPACE",
+    "lib/R/library/spatial/NEWS",
+    "lib/R/library/spatial/PP.files",
+    "lib/R/library/spatial/R/spatial",
+    "lib/R/library/spatial/R/spatial.rdb",
+    "lib/R/library/spatial/R/spatial.rdx",
+    "lib/R/library/spatial/help/AnIndex",
+    "lib/R/library/spatial/help/aliases.rds",
+    "lib/R/library/spatial/help/paths.rds",
+    "lib/R/library/spatial/help/spatial.rdb",
+    "lib/R/library/spatial/help/spatial.rdx",
+    "lib/R/library/spatial/html/00Index.html",
+    "lib/R/library/spatial/html/R.css",
+    "lib/R/library/spatial/libs/spatial.so",
+    "lib/R/library/spatial/po/de/LC_MESSAGES/R-spatial.mo",
+    "lib/R/library/spatial/po/en@quot/LC_MESSAGES/R-spatial.mo",
+    "lib/R/library/spatial/po/fr/LC_MESSAGES/R-spatial.mo",
+    "lib/R/library/spatial/po/ko/LC_MESSAGES/R-spatial.mo",
+    "lib/R/library/spatial/po/pl/LC_MESSAGES/R-spatial.mo",
+    "lib/R/library/spatial/ppdata/agter.dat",
+    "lib/R/library/spatial/ppdata/caveolae.dat",
+    "lib/R/library/spatial/ppdata/cells.dat",
+    "lib/R/library/spatial/ppdata/davis.dat",
+    "lib/R/library/spatial/ppdata/drumlin.dat",
+    "lib/R/library/spatial/ppdata/eagles.dat",
+    "lib/R/library/spatial/ppdata/fig1b.dat",
+    "lib/R/library/spatial/ppdata/fig1c.dat",
+    "lib/R/library/spatial/ppdata/fig2a.dat",
+    "lib/R/library/spatial/ppdata/fig2b.dat",
+    "lib/R/library/spatial/ppdata/fig3a.dat",
+    "lib/R/library/spatial/ppdata/fig3b.dat",
+    "lib/R/library/spatial/ppdata/fig3c.dat",
+    "lib/R/library/spatial/ppdata/grocery.dat",
+    "lib/R/library/spatial/ppdata/hccells.dat",
+    "lib/R/library/spatial/ppdata/nztrees.dat",
+    "lib/R/library/spatial/ppdata/pairfn.dat",
+    "lib/R/library/spatial/ppdata/pereg.dat",
+    "lib/R/library/spatial/ppdata/pines.dat",
+    "lib/R/library/spatial/ppdata/redwood.dat",
+    "lib/R/library/spatial/ppdata/schools.dat",
+    "lib/R/library/spatial/ppdata/stowns1.dat",
+    "lib/R/library/spatial/ppdata/tokyo.dat",
+    "lib/R/library/spatial/ppdata/towns.dat"
+  ],
+  "fn": "r-spatial-7.3_11-r36h96ca727_4.conda",
+  "legacy_bz2_md5": "619a5b0186c1f5b6a5c5a51915383e85",
+  "legacy_bz2_size": 145372,
+  "license": "GPL-2 | GPL-3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/home/ali/anaconda3/pkgs/r-spatial-7.3_11-r36h96ca727_4",
+    "type": 1
+  },
+  "md5": "13651d733870cbeaeed294aef4fc23c5",
+  "name": "r-spatial",
+  "package_tarball_full_path": "/home/ali/anaconda3/pkgs/r-spatial-7.3_11-r36h96ca727_4.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/spatial/CITATION",
+        "path_type": "hardlink",
+        "sha256": "54746ddc32bb0434bbb342f95fcf4e30716a79dd269b87715845f41a9dda1d50",
+        "sha256_in_prefix": "54746ddc32bb0434bbb342f95fcf4e30716a79dd269b87715845f41a9dda1d50",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "lib/R/library/spatial/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "89681f91c12956f386bfffc7182b6bf774e98a193113edc0e5767186fd022290",
+        "sha256_in_prefix": "89681f91c12956f386bfffc7182b6bf774e98a193113edc0e5767186fd022290",
+        "size_in_bytes": 883
+      },
+      {
+        "_path": "lib/R/library/spatial/INDEX",
+        "path_type": "hardlink",
+        "sha256": "f7ace516067fe87e517e8865feee0a7914af953a06a5e5127c93458b96b12d33",
+        "sha256_in_prefix": "f7ace516067fe87e517e8865feee0a7914af953a06a5e5127c93458b96b12d33",
+        "size_in_bytes": 1504
+      },
+      {
+        "_path": "lib/R/library/spatial/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "ae728bd02c6faf9a97e0b8ca51a056d73931ee88a1c10c025a82fdc9da175231",
+        "sha256_in_prefix": "ae728bd02c6faf9a97e0b8ca51a056d73931ee88a1c10c025a82fdc9da175231",
+        "size_in_bytes": 936
+      },
+      {
+        "_path": "lib/R/library/spatial/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "6296906d51e085e4013cc3a2d264bd7753dc17975cbe3bc585f3679e2d6787f1",
+        "sha256_in_prefix": "6296906d51e085e4013cc3a2d264bd7753dc17975cbe3bc585f3679e2d6787f1",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/spatial/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "b0572760acbc5068dafb31f703257a1ae8bee9714077bac70378cc875da6a669",
+        "sha256_in_prefix": "b0572760acbc5068dafb31f703257a1ae8bee9714077bac70378cc875da6a669",
+        "size_in_bytes": 990
+      },
+      {
+        "_path": "lib/R/library/spatial/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "4691041e4b65f7d812449b071b1fbef3d64369e99211d36d1595be4794243ea2",
+        "sha256_in_prefix": "4691041e4b65f7d812449b071b1fbef3d64369e99211d36d1595be4794243ea2",
+        "size_in_bytes": 390
+      },
+      {
+        "_path": "lib/R/library/spatial/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "e9e68c90bad301b3c5a3e2ff8387a6a55c05232ad3e3b682ff573c9a3e4323f8",
+        "sha256_in_prefix": "e9e68c90bad301b3c5a3e2ff8387a6a55c05232ad3e3b682ff573c9a3e4323f8",
+        "size_in_bytes": 581
+      },
+      {
+        "_path": "lib/R/library/spatial/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "8ced9f81d6d99b7cb99f93509927ee52924267d66593b6c6ac069d3ca1e02455",
+        "sha256_in_prefix": "8ced9f81d6d99b7cb99f93509927ee52924267d66593b6c6ac069d3ca1e02455",
+        "size_in_bytes": 932
+      },
+      {
+        "_path": "lib/R/library/spatial/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "6efa1756aa5c3c92de62eb30b0daeb107e142046fc879fc02302f284237fac6c",
+        "sha256_in_prefix": "6efa1756aa5c3c92de62eb30b0daeb107e142046fc879fc02302f284237fac6c",
+        "size_in_bytes": 689
+      },
+      {
+        "_path": "lib/R/library/spatial/NEWS",
+        "path_type": "hardlink",
+        "sha256": "e4927d53b90fab86308f204617d763aec43c7120b9b5906782ab8fa363e8c430",
+        "sha256_in_prefix": "e4927d53b90fab86308f204617d763aec43c7120b9b5906782ab8fa363e8c430",
+        "size_in_bytes": 550
+      },
+      {
+        "_path": "lib/R/library/spatial/PP.files",
+        "path_type": "hardlink",
+        "sha256": "19c5c3e8cc06fedc637671999ba41b2d609c8f80aecfbe7265c8bf2f282a0195",
+        "sha256_in_prefix": "19c5c3e8cc06fedc637671999ba41b2d609c8f80aecfbe7265c8bf2f282a0195",
+        "size_in_bytes": 1760
+      },
+      {
+        "_path": "lib/R/library/spatial/R/spatial",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/spatial/R/spatial.rdb",
+        "path_type": "hardlink",
+        "sha256": "d678d9ecd062f494fe487b275e84c0025b5be1ce3abd476c9f7b708833a0c1bf",
+        "sha256_in_prefix": "d678d9ecd062f494fe487b275e84c0025b5be1ce3abd476c9f7b708833a0c1bf",
+        "size_in_bytes": 46040
+      },
+      {
+        "_path": "lib/R/library/spatial/R/spatial.rdx",
+        "path_type": "hardlink",
+        "sha256": "5cb4d8a740fe02bbfbb3e05f0fe26a6b326ecf175a0822128655122391562450",
+        "sha256_in_prefix": "5cb4d8a740fe02bbfbb3e05f0fe26a6b326ecf175a0822128655122391562450",
+        "size_in_bytes": 717
+      },
+      {
+        "_path": "lib/R/library/spatial/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "aa04fc2f2ae2a73f66e26fb425ae0a0df5f5078f4955a927aed242a1991f73da",
+        "sha256_in_prefix": "aa04fc2f2ae2a73f66e26fb425ae0a0df5f5078f4955a927aed242a1991f73da",
+        "size_in_bytes": 421
+      },
+      {
+        "_path": "lib/R/library/spatial/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "9af5dc8d819841f2fee5c0ed6bd54fcc414090dd7f9f37a91ca3f1ffe77142fc",
+        "sha256_in_prefix": "9af5dc8d819841f2fee5c0ed6bd54fcc414090dd7f9f37a91ca3f1ffe77142fc",
+        "size_in_bytes": 263
+      },
+      {
+        "_path": "lib/R/library/spatial/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "8a4a79cddcb3c77fa0ce76bca23179583380929e73a0ff97123cbb2751f8ae7a",
+        "sha256_in_prefix": "8a4a79cddcb3c77fa0ce76bca23179583380929e73a0ff97123cbb2751f8ae7a",
+        "size_in_bytes": 318
+      },
+      {
+        "_path": "lib/R/library/spatial/help/spatial.rdb",
+        "path_type": "hardlink",
+        "sha256": "00986b32861a8c27f512c204a443f248b6cb51462046e2d1f8be3876da5a00a9",
+        "sha256_in_prefix": "00986b32861a8c27f512c204a443f248b6cb51462046e2d1f8be3876da5a00a9",
+        "size_in_bytes": 47450
+      },
+      {
+        "_path": "lib/R/library/spatial/help/spatial.rdx",
+        "path_type": "hardlink",
+        "sha256": "8c487bdc2d71402cf944e78a12e80e66abaee44d19739692c5394981c3f74925",
+        "sha256_in_prefix": "8c487bdc2d71402cf944e78a12e80e66abaee44d19739692c5394981c3f74925",
+        "size_in_bytes": 586
+      },
+      {
+        "_path": "lib/R/library/spatial/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "c3a5453960a79ab8a3ab2eded7510d28701bf4487a2f7ea25f62ecf7c2a35b43",
+        "sha256_in_prefix": "c3a5453960a79ab8a3ab2eded7510d28701bf4487a2f7ea25f62ecf7c2a35b43",
+        "size_in_bytes": 4114
+      },
+      {
+        "_path": "lib/R/library/spatial/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/spatial/libs/spatial.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/builder/ktietz/conda/conda-bld/r-spatial_1558365737382/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "4407aefc5d7f57d89b699e60963d6abac63d23954a5d80cadbc5eb679dbc40da",
+        "sha256_in_prefix": "e57af5148706ffc38e0f2bb5c11d525c32a68f389603fd51baa40260e076cda9",
+        "size_in_bytes": 34296
+      },
+      {
+        "_path": "lib/R/library/spatial/po/de/LC_MESSAGES/R-spatial.mo",
+        "path_type": "hardlink",
+        "sha256": "f0e148204d579bea7e4b9e162e7aacb3df8d3b269e64307721b62289590d3464",
+        "sha256_in_prefix": "f0e148204d579bea7e4b9e162e7aacb3df8d3b269e64307721b62289590d3464",
+        "size_in_bytes": 1522
+      },
+      {
+        "_path": "lib/R/library/spatial/po/en@quot/LC_MESSAGES/R-spatial.mo",
+        "path_type": "hardlink",
+        "sha256": "b46b295aef189f736e4b2a592ea80fa8d88326ac68a69256a850e581ceddd5c1",
+        "sha256_in_prefix": "b46b295aef189f736e4b2a592ea80fa8d88326ac68a69256a850e581ceddd5c1",
+        "size_in_bytes": 1388
+      },
+      {
+        "_path": "lib/R/library/spatial/po/fr/LC_MESSAGES/R-spatial.mo",
+        "path_type": "hardlink",
+        "sha256": "0e3b49312d8d9050acda25398b9b83b15f2019053d7ceecb0295f8e881895c85",
+        "sha256_in_prefix": "0e3b49312d8d9050acda25398b9b83b15f2019053d7ceecb0295f8e881895c85",
+        "size_in_bytes": 1551
+      },
+      {
+        "_path": "lib/R/library/spatial/po/ko/LC_MESSAGES/R-spatial.mo",
+        "path_type": "hardlink",
+        "sha256": "b8995d3f6864a2c0fd4497bdba1dbd03f82cd91bbeaf03078b0eab95c962b73e",
+        "sha256_in_prefix": "b8995d3f6864a2c0fd4497bdba1dbd03f82cd91bbeaf03078b0eab95c962b73e",
+        "size_in_bytes": 1736
+      },
+      {
+        "_path": "lib/R/library/spatial/po/pl/LC_MESSAGES/R-spatial.mo",
+        "path_type": "hardlink",
+        "sha256": "3194186c72be668f88342ada0c96cb1db92de897e1421fa0e3e7d4f8aa82d3d3",
+        "sha256_in_prefix": "3194186c72be668f88342ada0c96cb1db92de897e1421fa0e3e7d4f8aa82d3d3",
+        "size_in_bytes": 1707
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/agter.dat",
+        "path_type": "hardlink",
+        "sha256": "e07de4765f6fc9d2ef8446f4e70131f61b7ee43a0ad85ab1711563ba35ce69d5",
+        "sha256_in_prefix": "e07de4765f6fc9d2ef8446f4e70131f61b7ee43a0ad85ab1711563ba35ce69d5",
+        "size_in_bytes": 425
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/caveolae.dat",
+        "path_type": "hardlink",
+        "sha256": "787884071a1a45cfbd9ee0ea3656460857c955780de025ea14532f85c065d1ed",
+        "sha256_in_prefix": "787884071a1a45cfbd9ee0ea3656460857c955780de025ea14532f85c065d1ed",
+        "size_in_bytes": 3501
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/cells.dat",
+        "path_type": "hardlink",
+        "sha256": "62935a1b596b4c55bd7a17857f40e14f25c8197c094bdd442dc93abc85adbfc7",
+        "sha256_in_prefix": "62935a1b596b4c55bd7a17857f40e14f25c8197c094bdd442dc93abc85adbfc7",
+        "size_in_bytes": 408
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/davis.dat",
+        "path_type": "hardlink",
+        "sha256": "0396a87b6c7ba5452ca4d20e9dd01a76e976b3542a4ac4f6c6c723d38334ed18",
+        "sha256_in_prefix": "0396a87b6c7ba5452ca4d20e9dd01a76e976b3542a4ac4f6c6c723d38334ed18",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/drumlin.dat",
+        "path_type": "hardlink",
+        "sha256": "cc6ede3069ce16ad055fac4ca94defe4b80272895e3c5a2ebdbe332d78bc4f0b",
+        "sha256_in_prefix": "cc6ede3069ce16ad055fac4ca94defe4b80272895e3c5a2ebdbe332d78bc4f0b",
+        "size_in_bytes": 2353
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/eagles.dat",
+        "path_type": "hardlink",
+        "sha256": "ad8eca3e0b84ec67d680460d9f92229fd5295140991c9a3daf8c98b77d3910fb",
+        "sha256_in_prefix": "ad8eca3e0b84ec67d680460d9f92229fd5295140991c9a3daf8c98b77d3910fb",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/fig1b.dat",
+        "path_type": "hardlink",
+        "sha256": "2a6669aaf201dd83f399ddde36e93c00979b56e00886d38352fa2c4bd61a695e",
+        "sha256_in_prefix": "2a6669aaf201dd83f399ddde36e93c00979b56e00886d38352fa2c4bd61a695e",
+        "size_in_bytes": 3794
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/fig1c.dat",
+        "path_type": "hardlink",
+        "sha256": "b136c8884aff798cf89a1e84317b6b496b25ad41734c611a3e2bf597bc63e710",
+        "sha256_in_prefix": "b136c8884aff798cf89a1e84317b6b496b25ad41734c611a3e2bf597bc63e710",
+        "size_in_bytes": 4435
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/fig2a.dat",
+        "path_type": "hardlink",
+        "sha256": "e560e4cbac256c96cf8cb671e39d6f07de79b9bd83ef8a01701be67e39a613e4",
+        "sha256_in_prefix": "e560e4cbac256c96cf8cb671e39d6f07de79b9bd83ef8a01701be67e39a613e4",
+        "size_in_bytes": 1675
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/fig2b.dat",
+        "path_type": "hardlink",
+        "sha256": "ac975886fbba864dbbb5e40b78ec4952a66f503856424ed28d3fcbb31a1fa29f",
+        "sha256_in_prefix": "ac975886fbba864dbbb5e40b78ec4952a66f503856424ed28d3fcbb31a1fa29f",
+        "size_in_bytes": 3619
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/fig3a.dat",
+        "path_type": "hardlink",
+        "sha256": "3c5463b1b5a901a45dfc347587a402bf4e527a22149e804cd9de7812512ae09b",
+        "sha256_in_prefix": "3c5463b1b5a901a45dfc347587a402bf4e527a22149e804cd9de7812512ae09b",
+        "size_in_bytes": 882
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/fig3b.dat",
+        "path_type": "hardlink",
+        "sha256": "1155f439b36b4ec5e25f62e1acfaebca49c72a6665f831fb6bfccc75543cd70e",
+        "sha256_in_prefix": "1155f439b36b4ec5e25f62e1acfaebca49c72a6665f831fb6bfccc75543cd70e",
+        "size_in_bytes": 810
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/fig3c.dat",
+        "path_type": "hardlink",
+        "sha256": "af3a14144a00c655d0f0fdabcc2041573aa72cb59a61470a0564cb549071e183",
+        "sha256_in_prefix": "af3a14144a00c655d0f0fdabcc2041573aa72cb59a61470a0564cb549071e183",
+        "size_in_bytes": 985
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/grocery.dat",
+        "path_type": "hardlink",
+        "sha256": "ec84b5e64c45b75f042f2ae9c4fd7114fd2acae4e1dd46bcfaa3bc1ff3e80408",
+        "sha256_in_prefix": "ec84b5e64c45b75f042f2ae9c4fd7114fd2acae4e1dd46bcfaa3bc1ff3e80408",
+        "size_in_bytes": 495
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/hccells.dat",
+        "path_type": "hardlink",
+        "sha256": "0154c1445cda7de998487e3e5a12ea6189b7ce9b4d076fee4ebe24f136a54a69",
+        "sha256_in_prefix": "0154c1445cda7de998487e3e5a12ea6189b7ce9b4d076fee4ebe24f136a54a69",
+        "size_in_bytes": 434
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/nztrees.dat",
+        "path_type": "hardlink",
+        "sha256": "aad9e8732a33dc3430dfb0cae5fc539db7fde88acbe577af95529c2e49a45a43",
+        "sha256_in_prefix": "aad9e8732a33dc3430dfb0cae5fc539db7fde88acbe577af95529c2e49a45a43",
+        "size_in_bytes": 567
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/pairfn.dat",
+        "path_type": "hardlink",
+        "sha256": "3ea5cdeec96dbfe1f92aa76ab171a23405370f77299d5be379973996cdedb772",
+        "sha256_in_prefix": "3ea5cdeec96dbfe1f92aa76ab171a23405370f77299d5be379973996cdedb772",
+        "size_in_bytes": 438
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/pereg.dat",
+        "path_type": "hardlink",
+        "sha256": "905598d5aba3fbda88fa78e068ab8b42f8faf4ada5c429d59e88fa477664042c",
+        "sha256_in_prefix": "905598d5aba3fbda88fa78e068ab8b42f8faf4ada5c429d59e88fa477664042c",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/pines.dat",
+        "path_type": "hardlink",
+        "sha256": "db51d414c404d873b2d0e1903af1a1e40bc9f9a56f1f2d78afd0995ce6b5462f",
+        "sha256_in_prefix": "db51d414c404d873b2d0e1903af1a1e40bc9f9a56f1f2d78afd0995ce6b5462f",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/redwood.dat",
+        "path_type": "hardlink",
+        "sha256": "3087a32b3bdb172c37c6b3bfae8d3b8eab4be895931dff69de8d6c4a76eb8dd4",
+        "sha256_in_prefix": "3087a32b3bdb172c37c6b3bfae8d3b8eab4be895931dff69de8d6c4a76eb8dd4",
+        "size_in_bytes": 679
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/schools.dat",
+        "path_type": "hardlink",
+        "sha256": "59c43302d982a4ad8ba1ac5f5a8d67e3a4b821b561aeb0cb36d434d7d59dae44",
+        "sha256_in_prefix": "59c43302d982a4ad8ba1ac5f5a8d67e3a4b821b561aeb0cb36d434d7d59dae44",
+        "size_in_bytes": 553
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/stowns1.dat",
+        "path_type": "hardlink",
+        "sha256": "3bba12aecbda9ec72b280cbb7a7a278b51be97e6efd44075ae71914645858d0a",
+        "sha256_in_prefix": "3bba12aecbda9ec72b280cbb7a7a278b51be97e6efd44075ae71914645858d0a",
+        "size_in_bytes": 733
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/tokyo.dat",
+        "path_type": "hardlink",
+        "sha256": "dec0722ca511e8f12d2678d6d271f2f0abdb805908e1f6b4ebda0da3a377db39",
+        "sha256_in_prefix": "dec0722ca511e8f12d2678d6d271f2f0abdb805908e1f6b4ebda0da3a377db39",
+        "size_in_bytes": 3049
+      },
+      {
+        "_path": "lib/R/library/spatial/ppdata/towns.dat",
+        "path_type": "hardlink",
+        "sha256": "456e6c30b7f0f81c8569a4156d3e3b977db806d5825acf6dbb4d0198302ffdfb",
+        "sha256_in_prefix": "456e6c30b7f0f81c8569a4156d3e3b977db806d5825acf6dbb4d0198302ffdfb",
+        "size_in_bytes": 849
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ec169f1c6bc329a7fb4f2f336b535fcf2e5e0a2c41190b6918812db5d56b4843",
+  "size": 139633,
+  "subdir": "linux-64",
+  "timestamp": 1558365760456,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/linux-64/r-spatial-7.3_11-r36h96ca727_4.conda",
+  "version": "7.3_11"
+}
